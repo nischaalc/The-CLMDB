@@ -14,7 +14,7 @@ Movie::Movie(const string& title)		//Alternate Constructor
 	title_ = title;
 }
 
-Movie::Movie(const string& title, const string& director, Movie_Rating rating, unsigned int year, const string& path, const vector<string>& actors)	//Alternate Constructor
+Movie::Movie(const string& title, const string& director, Movie_Rating rating, const string& year, const string& path, const vector<string>& actors)	//Alternate Constructor
 {
 	title_ = title;
 	director_ = director;
@@ -51,7 +51,7 @@ Movie_Rating Movie::getRating() const
 	return rating_;
 }
 
-unsigned int Movie::getYear() const
+string Movie::getYear() const
 {
 	return year_;
 }
@@ -76,7 +76,7 @@ void Movie::setRating(Movie_Rating rating)
 	rating_ = rating;
 }
 
-void Movie::setYear(unsigned int year)
+void Movie::setYear(const string& year)
 {
 	year_ = year;
 }

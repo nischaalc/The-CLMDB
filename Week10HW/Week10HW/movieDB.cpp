@@ -8,10 +8,10 @@
 
 using namespace std;
 
-void readFromFile(string userFileName, vector<Movie>& theMovieList, vector<string>& theActorList);
+void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<string>& theActorList);
 
-void merge_sort(vector<Movie> & a, int fromIndex, int toIndex);
-void merge(vector<Movie> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(vector<Movie *> & a, int fromIndex, int toIndex);
+void merge(vector<Movie *> & a, int fromIndex, int mid, int toIndex);
 
 void merge_sort(vector<string> & a, int fromIndex, int toIndex);
 void merge(vector<string> & a, int fromIndex, int mid, int toIndex);
@@ -20,11 +20,10 @@ bool doesExist(string s, vector<Movie> & m);
 
 int main(void)
 {
-
 	ifstream fin;
 	ofstream mout("movieOut.txt");
 	ofstream aout("actorOut.txt");
-	vector<Movie> movieVector;
+	vector<Movie *> movieVector;
 	vector<string> actorList;
 		
 	int i = 0;
@@ -37,7 +36,8 @@ int main(void)
 
 	for (int i = 0; i < movieVector.size(); i++)
 	{
-		mout << movieVector[i].getTitle() << endl;
+		movieVector[i]->output(mout);
+		cout << "Here" << endl;
 	}
 
 	for (int i = 0; i < actorList.size(); i++)
@@ -46,7 +46,7 @@ int main(void)
 	}
 }
 
-void readFromFile(string userFileName, vector<Movie>& theMovieList, vector<string>& theActorList)
+void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<string>& theActorList)
 {
 	//-----Variables-----
 	ifstream fin;
@@ -58,8 +58,7 @@ void readFromFile(string userFileName, vector<Movie>& theMovieList, vector<strin
 
 	int i = 0;
 
-	string movieName, movieDirector, movieURL, movieRating, checkInput;
-	int movieYear;
+	string movieName, movieDirector, movieURL, movieRating, checkInput, movieYear;
 	Movie_Rating correctMovieRating;
 	vector<string> movieActors;
 	//-------------------
@@ -133,9 +132,10 @@ void readFromFile(string userFileName, vector<Movie>& theMovieList, vector<strin
 		}
 
 		Movie temp(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
-		Movie* moviePtr = &temp;
 
-		theMovieList.push_back(temp);			//Push the newly created movie object onto a vector
+		temp.output(cout);
+		cout << endl;
+		theMovieList.push_back(&temp);			//Push the newly created movie object onto a vector
 
 		i++;		//Increment the index
 
@@ -143,7 +143,7 @@ void readFromFile(string userFileName, vector<Movie>& theMovieList, vector<strin
 
 }
 
-void merge_sort(vector<Movie> & a, int fromIndex, int toIndex)
+void merge_sort(vector<Movie *> & a, int fromIndex, int toIndex)
 {
 	if (fromIndex < toIndex) // don't sort single elements
 	{
@@ -158,12 +158,12 @@ void merge_sort(vector<Movie> & a, int fromIndex, int toIndex)
 	}
 }
 
-void merge(vector<Movie> & a, int fromIndex, int mid, int toIndex)
+void merge(vector<Movie *> & a, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
 	// merge both halves into a temporary vector b
-	vector<Movie> b(n);
+	vector<Movie *> b(n);
 
 	int i1 = fromIndex;  // next element to consider in the first half
 	int i2 = mid + 1;    // next element to consider in the second half
@@ -174,7 +174,7 @@ void merge(vector<Movie> & a, int fromIndex, int mid, int toIndex)
 
 	while (i1 <= mid && i2 <= toIndex)
 	{
-		if (a[i1].getTitle() < a[i2].getTitle())
+		if (a[i1]->getTitle() < a[i2]->getTitle())
 		{
 			b[j] = a[i1];
 			i1++;

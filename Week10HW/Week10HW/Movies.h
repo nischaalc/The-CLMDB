@@ -42,7 +42,7 @@ public:
 	Movie(const string& title,
 		const string& director,
 		Movie_Rating rating,
-		unsigned int year,
+		const string& year,
 		const string& path,
 		const vector<string>& actors);
 
@@ -59,7 +59,7 @@ public:
 	string getTitle() const;
 	string getDirector() const;
 	Movie_Rating getRating() const;
-	unsigned int getYear() const;
+	string getYear() const;
 	string getURL() const;
 	int getNumActors() const;
 	string getActorName() const;
@@ -70,7 +70,7 @@ public:
 
 	void setDirector(const string& director);
 	void setRating(Movie_Rating rating);
-	void setYear(unsigned int year);
+	void setYear(const string& year);
 	void setURL(const string& path);
 	void setTitle(const string& title);
 	void addActor(const string& actor);
@@ -89,7 +89,7 @@ private:
 	string       title_;
 	string       director_;
 	Movie_Rating rating_;
-	unsigned int year_;
+	string year_;
 	string       url_;
 	vector<string> actors_;
 
