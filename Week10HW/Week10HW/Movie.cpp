@@ -18,7 +18,7 @@ Movie::Movie(const string& title, const string& director, Movie_Rating rating, u
 {
 	title_ = title;
 	director_ = director;
-	rating_ = rating;
+	rating_ = rating; 
 	year_ = year;
 	url_ = path;
 
@@ -102,7 +102,7 @@ void Movie::output(ostream & out)			//Output to either console or file
 	out << "Director: " << director_ << endl;
 	out << "Year: " << year_ << endl;
 
-	if (rating_ == G)
+	/*if (rating_ == G)
 		out << "Rating: G" << endl;
 	else if (rating_ == PG)
 		out << "Rating: PG" << endl;
@@ -113,7 +113,7 @@ void Movie::output(ostream & out)			//Output to either console or file
 	else if (rating_ == NC17)
 		out << "Rating: NC17" << endl;
 	else if (rating_ == NR)
-		out << "Rating: NR" << endl;
+		out << "Rating: NR" << endl;*/
 
 	out << "IMDB URL: " << url_ << endl;
 	

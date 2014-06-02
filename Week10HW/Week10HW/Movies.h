@@ -91,8 +91,7 @@ private:
 	Movie_Rating rating_;
 	unsigned int year_;
 	string       url_;
-	Movie* movieLink_;
-	Actor* actorLink_;
+	vector<string> actors_;
 
 };
 
