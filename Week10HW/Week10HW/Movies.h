@@ -22,11 +22,11 @@
 #include <vector>
 #include "List.h"
 #include "Node.h"
+#include "Actor.h"
 
 using namespace std;
 
 enum Movie_Rating { G, PG, PG13, R, NC17, NR };
-
 
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
@@ -34,6 +34,8 @@ enum Movie_Rating { G, PG, PG13, R, NC17, NR };
 class Movie
 {
 public:
+
+	friend class Actor;
 
 	// ------------------------------------------------------
 	// ----- Constructors --------------------	---------------
@@ -43,7 +45,7 @@ public:
 	Movie(const string& title);
 	Movie(const string& title,
 		const string& director,
-		Movie_Rating rating,
+		const string& rating,
 		const string& year,
 		const string& path,
 		const vector<string>& actors);
@@ -52,7 +54,7 @@ public:
 	// ----- Destructor -------------------------------------
 	// ------------------------------------------------------
 
-	~Movie();  // To be implemented in a future assignment.
+	~Movie();  
 
 	// ------------------------------------------------------
 	// ----- Inspectors -------------------------------------
@@ -60,7 +62,7 @@ public:
 
 	string getTitle() const;
 	string getDirector() const;
-	Movie_Rating getRating() const;
+	string getRating() const;
 	string getYear() const;
 	string getURL() const;
 	int getNumActors() const;
@@ -87,27 +89,17 @@ public:
 	// ----------------------------------------------------------
 
 private:
-	string       title_;
-	string       director_;
-	Movie_Rating rating_;
+	string title_;
+	string director_;
+	string rating_;
 	string year_;
-	string       url_;
+	string url_;
 	vector<string> actors_;
+	vector<Actor*> actorPointers_;
 
 };
 
-ostream& operator<<(ostream& out, const Movie& movieObject);
+ostream& operator<<(ostream& out, const Movie*& movieObject);
 
-
-class Actor
-{
-public:
-
-
-private:
-	string actorName_;
-	Actor* actorLink_;
-
-};
 
 #endif 

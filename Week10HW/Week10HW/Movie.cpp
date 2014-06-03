@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <fstream>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ Movie::Movie(const string& title)		//Alternate Constructor
 	title_ = title;
 }
 
-Movie::Movie(const string& title, const string& director, Movie_Rating rating, const string& year, const string& path, const vector<string>& actors)	//Alternate Constructor
+Movie::Movie(const string& title, const string& director, const string& rating, const string& year, const string& path, const vector<string>& actors)	//Alternate Constructor
 {
 	title_ = title;
 	director_ = director;
@@ -34,7 +35,6 @@ Movie::Movie(const string& title, const string& director, Movie_Rating rating, c
 
 Movie::~Movie()
 {
-
 }
 
 
@@ -48,7 +48,7 @@ string Movie::getDirector() const
 	return director_;
 }
 
-Movie_Rating Movie::getRating() const
+string Movie::getRating() const
 {
 	return rating_;
 }
@@ -98,24 +98,18 @@ void Movie::addActor(const string& actor)
 	actors_.push_back(actor);
 }
 
+string Actor::getName() const
+{
+	return actorName_;
+}
+
 void Movie::output(ostream & out)			//Output to either console or file
 {
 	out << "Movie: " << getTitle() << endl;
 	out << "Director: " << getDirector() << endl;
 	out << "Year: " << getYear() << endl;
 
-	if (getRating() == G)
-		out << "Rating: G" << endl;
-	else if (getRating() == PG)
-		out << "Rating: PG" << endl;
-	else if (getRating() == PG13)
-		out << "Rating: PG13" << endl;
-	else if (getRating() == R)
-		out << "Rating: R" << endl;
-	else if (getRating() == NC17)
-		out << "Rating: NC17" << endl;
-	else if (getRating() == NR)
-		out << "Rating: NR" << endl;
+	out << "Rating: " << getRating() << endl;
 
 	out << "IMDB URL: " << getURL() << endl;
 

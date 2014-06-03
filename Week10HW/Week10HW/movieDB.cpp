@@ -18,7 +18,9 @@ void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex);
 void merge_sort(vector<string> & a, int fromIndex, int toIndex);
 void merge(vector<string> & a, int fromIndex, int mid, int toIndex);
 
-bool doesExist(string s, vector<Movie> & m);
+void trim(string& s);
+
+bool doesExist(string mTitle, string mDir, string mRate, string mYear, vector<Movie*>& m);
 
 int main(void)
 {
@@ -27,30 +29,27 @@ int main(void)
 	ofstream aout("actorOut.txt");
 	vector<Movie*> theMovieList;
 	vector<string> actorList;
-	List<Movie> theMovieList2;
 
 	int i = 0;
 
 	string fileName = "sample.txt";
 
 	readFromFile(fileName, theMovieList, actorList);
-	//merge_sort(movieVector, 0, movieVector.size() - 1);
-	merge_sort(actorList, 0, actorList.size() - 1);
-
-	for (int i = 0; i < theMovieList2.size(); i++)
-	{
-		cout << theMovieList2[i].getTitle();
-	}
 
 	for (int i = 0; i < actorList.size(); i++)
 	{
 		aout << actorList[i] << endl;
 	}
+
+	for (int i = 0; i < theMovieList.size(); i++)
+	{
+		theMovieList[i]->output(mout);
+	}
 }
 
 void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<string>& theActorList)
 {
-	//-----Variables-----
+	//-----Variables--------
 	ifstream fin;
 	fin.open(userFileName);
 	string delimiter = "$$$$";
@@ -61,22 +60,25 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 
 	int i = 0;
 
-	string movieName, movieDirector, movieURL, movieRating, checkInput, movieYear;
-	Movie_Rating correctMovieRating;
+	string movieName, movieDirector, movieURL, movieRating, checkInput, movieYear, correctMovieRating;
 	vector<string> movieActors;
-	//-------------------
+	vector<Actor> actors;
+	//----------------------
 
 	while (!fin.eof())		//Repeat until the end of file is reached
 	{
 		movieActors.clear();		//Prepare the vector of actors for new entries
 
 		getline(fin, movieName);		//Read in data from the file
+		trim(movieName);
 		transform(movieName.begin(), ++movieName.begin(), movieName.begin(), toupper);
 
 		getline(fin, movieDirector);
+		trim(movieDirector);
 		transform(movieDirector.begin(), ++movieDirector.begin(), movieDirector.begin(), toupper);
 
 		fin >> tempInput;
+		trim(tempInput);
 		istringstream ss(tempInput);
 
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
@@ -84,21 +86,10 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 		else
 		{
 			ss >> movieRating;
-			if (movieRating == "G")
-				correctMovieRating = G;
-			else if (movieRating == "PG")
-				correctMovieRating = PG;
-			else if (movieRating == "PG13")
-				correctMovieRating = PG13;
-			else if (movieRating == "R")
-				correctMovieRating = R;
-			else if (movieRating == "NC17")
-				correctMovieRating = NC17;
-			else if (movieRating == "NR")
-				correctMovieRating = NR;
 		}
 
 		fin >> tempInput;
+		trim(tempInput);
 		istringstream st(tempInput);
 
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
@@ -106,19 +97,9 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 		else
 		{
 			st >> movieRating;
-			if (movieRating == "G")
-				correctMovieRating = G;
-			else if (movieRating == "PG")
-				correctMovieRating = PG;
-			else if (movieRating == "PG13")
-				correctMovieRating = PG13;
-			else if (movieRating == "R")
-				correctMovieRating = R;
-			else if (movieRating == "NC17")
-				correctMovieRating = NC17;
-			else if (movieRating == "NR")
-				correctMovieRating = NR;
 		}
+
+		doesExist(movieName, movieDirector, movieRating, movieYear, theMovieList);
 
 		fin.ignore();
 		getline(fin, movieURL);
@@ -127,6 +108,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 
 		while (checkInput != delimiter)		//Read in actor data until the delimiter is reached
 		{
+			trim(checkInput);
 			transform(checkInput.begin(), ++checkInput.begin(), checkInput.begin(), toupper);
 			movieActors.push_back(checkInput);
 			theActorList.push_back(checkInput);
@@ -134,15 +116,17 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 			
 		}
 
-		Movie temp(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
+		
+		Movie* temp = new Movie(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
 
-		theMovieList.push_back(&temp);			//Push the newly created movie object onto a vector
-
-		sOut << endl;
-
+		theMovieList.push_back(temp);			//Push the newly created movie object onto a vector
+		
 		i++;		//Increment the index
 
 	}
+
+	merge_sort(theMovieList, 0, theMovieList.size() - 1);
+	merge_sort(theActorList, 0, theActorList.size() - 1);
 
 }
 
@@ -278,13 +262,33 @@ void merge(vector<string> & a, int fromIndex, int mid, int toIndex)
 		a[fromIndex + j] = b[j];
 }
 
-bool doesExist(string s, vector<Movie> & m)
+void trim(string& s)
 {
+	int start = s.find_first_not_of(" ");
+	int end = s.find_last_not_of(" ");
+	
+	s = s.substr(start, end - start + 1);
+}
+
+bool doesExist(string mTitle, string mDir, string mRate, string mYear, vector<Movie*>& m)
+{
+	ofstream fout("dupes.txt");
+	int counter = 0;
+	bool returnVal = false;
+
 	for (int i = 0; i < m.size(); i++)
 	{
-		if (s == m[i].getTitle())
-			return false;
+		if ((m[i]->getTitle() == mTitle) || (m[i]->getDirector() == mDir) || (m[i]->getRating() == mRate) || (m[i]->getYear() == mYear))
+		{
+			fout << "Duplicate at: " << i << " - " << m[i]->getTitle() << endl;
+			counter++;
+		}
 		else
-			return true;
+		{
+			fout << "The movie " << m[i]->getTitle() << " does not have exact duplicates." << endl;
+		}
 	}
+
+	return returnVal;
+
 }
