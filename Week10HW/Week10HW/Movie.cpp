@@ -1,4 +1,6 @@
 #include "Movies.h"
+#include "List.h"
+#include "Node.h"
 #include <string>
 #include <iostream>
 #include <vector>
@@ -98,29 +100,27 @@ void Movie::addActor(const string& actor)
 
 void Movie::output(ostream & out)			//Output to either console or file
 {
-	out << "Movie: " << title_ << endl;
-	out << "Director: " << director_ << endl;
-	out << "Year: " << year_ << endl;
+	out << "Movie: " << getTitle() << endl;
+	out << "Director: " << getDirector() << endl;
+	out << "Year: " << getYear() << endl;
 
-	/*if (rating_ == G)
+	if (getRating() == G)
 		out << "Rating: G" << endl;
-	else if (rating_ == PG)
+	else if (getRating() == PG)
 		out << "Rating: PG" << endl;
-	else if (rating_ == PG13)
+	else if (getRating() == PG13)
 		out << "Rating: PG13" << endl;
-	else if (rating_ == R)
+	else if (getRating() == R)
 		out << "Rating: R" << endl;
-	else if (rating_ == NC17)
+	else if (getRating() == NC17)
 		out << "Rating: NC17" << endl;
-	else if (rating_ == NR)
-		out << "Rating: NR" << endl;*/
+	else if (getRating() == NR)
+		out << "Rating: NR" << endl;
 
-	out << "IMDB URL: " << url_ << endl;
-	
-	int endLoop = actors_.size();
+	out << "IMDB URL: " << getURL() << endl;
 
 	out << "Cast: " << endl;
-	for (int i = 0; i < endLoop; i++)
+	for (int i = 0; i < getNumActors(); i++)
 	{
 		out << actors_[i] << endl;
 	}

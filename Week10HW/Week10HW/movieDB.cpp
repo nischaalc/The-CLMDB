@@ -5,13 +5,15 @@
 #include <sstream>
 #include <string>
 #include "Movies.h"
+#include "List.h"
+#include "Node.h"
 
 using namespace std;
 
-void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<string>& theActorList);
+void readFromFile(string userFileName, List<Movie>& theMovieList2, vector<string>& theActorList);
 
-void merge_sort(vector<Movie *> & a, int fromIndex, int toIndex);
-void merge(vector<Movie *> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(List<Movie> & a, int fromIndex, int toIndex);
+void merge(List<Movie> & a, int fromIndex, int mid, int toIndex);
 
 void merge_sort(vector<string> & a, int fromIndex, int toIndex);
 void merge(vector<string> & a, int fromIndex, int mid, int toIndex);
@@ -23,30 +25,34 @@ int main(void)
 	ifstream fin;
 	ofstream mout("movieOut.txt");
 	ofstream aout("actorOut.txt");
-	vector<Movie *> movieVector;
+	vector<Movie*> theMovieList;
 	vector<string> actorList;
-		
+	List<Movie> theMovieList2;
+
 	int i = 0;
 
 	string fileName = "sample.txt";
 
-	readFromFile(fileName, movieVector, actorList);
-	merge_sort(movieVector, 0, movieVector.size() - 1);
-	merge_sort(actorList, 0, actorList.size() - 1);
+	readFromFile(fileName, theMovieList2, actorList);
+	merge_sort(theMovieList2, 0, theMovieList2.size() - 1);
+	merge_sort(actorList, 1, actorList.size() - 1);
 
-	for (int i = 0; i < movieVector.size(); i++)
-	{
-		movieVector[i]->output(mout);
-		cout << "Here" << endl;
-	}
+	cout << theMovieList2.size() << endl;
 
-	for (int i = 0; i < actorList.size(); i++)
+	/*for (int i = 0; i < theMovieList2.size(); i++)
 	{
-		aout << actorList[i] << endl;
-	}
+		cout << i << endl;
+		theMovieList2[i].output(cout);
+		cout << endl;
+	}*/
+
+	/*for (int i = 0; i < actorList.size(); i++)
+	{
+		cout << actorList[i] << endl;
+	}*/
 }
 
-void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<string>& theActorList)
+void readFromFile(string userFileName, List<Movie>& theMovieList2, vector<string>& theActorList)
 {
 	//-----Variables-----
 	ifstream fin;
@@ -55,6 +61,7 @@ void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<str
 	bool newMovie = false;
 	string getInput;
 	string tempInput;
+	ofstream sOut("sub.txt");
 
 	int i = 0;
 
@@ -65,6 +72,7 @@ void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<str
 
 	while (!fin.eof())		//Repeat until the end of file is reached
 	{
+
 		movieActors.clear();		//Prepare the vector of actors for new entries
 
 		getline(fin, movieName);		//Read in data from the file
@@ -133,9 +141,9 @@ void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<str
 
 		Movie temp(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
 
-		temp.output(cout);
-		cout << endl;
-		theMovieList.push_back(&temp);			//Push the newly created movie object onto a vector
+		theMovieList2.push_back(temp);			//Push the newly created movie object onto a vector
+
+		sOut << endl;
 
 		i++;		//Increment the index
 
@@ -143,8 +151,9 @@ void readFromFile(string userFileName, vector<Movie *>& theMovieList, vector<str
 
 }
 
-void merge_sort(vector<Movie *> & a, int fromIndex, int toIndex)
+void merge_sort(List<Movie> & a, int fromIndex, int toIndex)
 {
+	
 	if (fromIndex < toIndex) // don't sort single elements
 	{
 		int mid = (fromIndex + toIndex) / 2;
@@ -158,12 +167,13 @@ void merge_sort(vector<Movie *> & a, int fromIndex, int toIndex)
 	}
 }
 
-void merge(vector<Movie *> & a, int fromIndex, int mid, int toIndex)
+void merge(List<Movie> & a, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
 	// merge both halves into a temporary vector b
-	vector<Movie *> b(n);
+	List<Movie> b;
+	b.setSize(a.size());
 
 	int i1 = fromIndex;  // next element to consider in the first half
 	int i2 = mid + 1;    // next element to consider in the second half
@@ -174,10 +184,13 @@ void merge(vector<Movie *> & a, int fromIndex, int mid, int toIndex)
 
 	while (i1 <= mid && i2 <= toIndex)
 	{
-		if (a[i1]->getTitle() < a[i2]->getTitle())
+		cout << "T" << endl;
+		if (a[i1].getTitle() < a[i2].getTitle())
 		{
+			cout << "B" << endl;
 			b[j] = a[i1];
 			i1++;
+			cout << i1 << endl;
 		}
 		else
 		{

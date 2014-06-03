@@ -20,6 +20,8 @@
 
 #include <string>
 #include <vector>
+#include "List.h"
+#include "Node.h"
 
 using namespace std;
 
@@ -62,8 +64,7 @@ public:
 	string getYear() const;
 	string getURL() const;
 	int getNumActors() const;
-	string getActorName() const;
-	
+
 	// ------------------------------------------------------
 	// ----- Mutators ---------------------------------------
 	// ------------------------------------------------------
