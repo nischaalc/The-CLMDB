@@ -73,7 +73,7 @@ class List
 				//   e.g. trying to insert an element in
 				//        location 10 when the list has 5 Nodes
 
-			void setSize(int n)
+			void setSize(int n);
 	
 		//------------------------------------------------------
 		// removal methods
@@ -171,9 +171,9 @@ class List
 		{
 			return size_;
 		}
-
+		
 		template<typename T>
-		int List<T>::setSize(int n) const
+		void List<T>::setSize(int n)
 		{
 			size_ = n;
 		}
