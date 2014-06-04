@@ -42,6 +42,8 @@ int main(void)
 		aout << actorList[i]->getName() << endl;
 	}
 
+	cout << theMovieList.size() << endl;
+
 	for (int i = 0; i < theMovieList.size(); i++)
 	{
 		theMovieList[i]->output(mout);
@@ -77,30 +79,27 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 		trim(movieDirector);
 		transform(movieDirector.begin(), ++movieDirector.begin(), movieDirector.begin(), toupper);
 
-		fin >> tempInput;
+		getline(fin, tempInput);
 		trim(tempInput);
-		istringstream ss(tempInput);
 
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
-			ss >> movieYear;
+			movieYear = tempInput;
 		else
 		{
-			ss >> movieRating;
+			movieRating = tempInput;
 		}
 
-		fin >> tempInput;
+		getline(fin, tempInput);
 		trim(tempInput);
-		istringstream st(tempInput);
+		
+		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
+			movieYear = tempInput;
+		else
+		{
+			movieRating = tempInput;
+		}
 
 		fin.ignore();
-
-		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
-			st >> movieYear;
-		else
-		{
-			st >> movieRating;
-		}
-
 		getline(fin, movieURL);
 
 		getline(fin, checkInput);
@@ -115,7 +114,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 			getline(fin, checkInput);
 		}
 
-		Movie* temp = new Movie(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors, theActorList);			//Assign collected data to a movie object
+		Movie* temp = new Movie(movieName, movieDirector, movieRating, movieYear, movieURL, movieActors, theActorList);			//Assign collected data to a movie object
 
 		theMovieList.push_back(temp);			//Push the newly created movie object onto a vector
 
@@ -280,10 +279,9 @@ bool actorDuplicates(Actor* first, Actor* second)
 
 bool movieDuplicates(Movie* first, Movie* second)
 {
-	if ((first->getTitle() != second->getTitle()) && (first->getDirector() != second->getDirector()) && (first->getRating() != second->getRating()) && (first->getYear() != second->getYear()))
-		return false;
+	if ((first->getTitle() == second->getTitle()) && (first->getDirector() == second->getDirector()) && (first->getRating() == second->getRating()) && (first->getYear() == second->getYear()))
+		return true;
 
-	return true;
+	return false;
 
-	//
 }
