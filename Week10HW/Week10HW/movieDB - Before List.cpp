@@ -20,14 +20,14 @@ using namespace std;
 //-----------------Prototypes--------------------------------------
 void readFromFile(string userFileName, vector<Movie*>& theMovieList, vector<Actor*>& theActorList);
 
-void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex);
-void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(vector<Movie*> & movieVector, int fromIndex, int toIndex);
+void merge(vector<Movie*> & movieVector, int fromIndex, int mid, int toIndex);
 
-void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex);
-void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(vector<Actor*> & actorVector, int fromIndex, int toIndex);
+void merge(vector<Actor*> & actorVector, int fromIndex, int mid, int toIndex);
 
-bool actorDuplicates(Actor* first, Actor* second);
-bool movieDuplicates(Movie* first, Movie* second);
+bool actorDuplicates(Actor* firstActor, Actor* secondActor);
+bool movieDuplicates(Movie* firstMovie, Movie* secondMovie);
 
 void trim(string& s);
 
@@ -35,7 +35,6 @@ void searchMovies(const vector<Movie*>& movieList);
 void searchDirectors(const vector<Movie*>& movieList);
 void searchRating(const vector<Movie*>& movieList);
 void searchYear(const vector<Movie*>& movieList);
-void searchActor(const vector<Movie*>& movieList);
 //-----------------------------------------------------------------
 
 int main(void)
@@ -83,7 +82,6 @@ search:
 	cout << "'Director' - to query for a list of movies directed by the specified director." << endl;
 	cout << "'Rating' - to query for all movies matching the specified rating." << endl;
 	cout << "'Year' - to query for all movies made in the specified year." << endl;
-	cout << "'Actor' - to query for a list of movies that an actor has appeared in." << endl;
 	cin >> queryChoice;
 
 	if (queryChoice == "Movie" || queryChoice == "movie")
@@ -94,8 +92,6 @@ search:
 		searchRating(theMovieList);
 	else if (queryChoice == "Year" || queryChoice == "year")
 		searchYear(theMovieList);
-	else if (queryChoice == "Actor" || queryChoice == "actor")
-		searchActor(theMovieList);
 	
 	cout << "Do you want to search for more information? (y/n): ";
 	cin >> temp;
@@ -176,44 +172,58 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 			trim(checkInput);								//Eliminate white space from the start and end of the string
 			transform(checkInput.begin(), ++checkInput.begin(), checkInput.begin(), toupper);	//Convert the first letter of the string to an uppercase letter
 			Actor* temp = new Actor(checkInput);			//Create a new memory location to store the Actor object
-			movieActors.push_back(temp);					//Add the 
-			theActorList.push_back(temp);
+			movieActors.push_back(temp);					//Add the Actor object to the vector in the Movie object
+			theActorList.push_back(temp);					//Add the Actor object to a list of all the actors
 			getline(fin, checkInput);
 		}
 
-		merge_sort(movieActors, 0, movieActors.size() - 1);
+		merge_sort(movieActors, 0, movieActors.size() - 1);	//Alphabetically sort the list of actors associated with a movie
 
-		Movie* temp = new Movie(movieName, movieDirector, movieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
+		Movie* temp = new Movie(movieName, movieDirector, movieRating, movieYear, movieURL, movieActors);		//Assign collected data to a movie object
 
 		theMovieList.push_back(temp);	//Push the newly created movie object onto a vector
 
 		i++;		//Increment the index
 
 	}
+		
+	merge_sort(theMovieList, 0, theMovieList.size() - 1);			//Alphabetically sort the list of Movies
+	merge_sort(theActorList, 0, theActorList.size() - 1);			//Alphabetically sort the list of actors
 
-	merge_sort(theMovieList, 0, theMovieList.size() - 1);
-	merge_sort(theActorList, 0, theActorList.size() - 1);
-
-	theMovieList.erase(unique(theMovieList.begin(), theMovieList.end(), movieDuplicates), theMovieList.end());
+	//----------Eliminate duplicates from each vector----------------------
+	theMovieList.erase(unique(theMovieList.begin(), theMovieList.end(), movieDuplicates), theMovieList.end());		
 	theActorList.erase(unique(theActorList.begin(), theActorList.end(), actorDuplicates), theActorList.end());
+	//---------------------------------------------------------------------
 }
 
-void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex)
+/*
+Part of the recursive algorithm used to sort data
+@param movieVector: the vector that stores Movie objects
+@param fromIndex: the index from which to start the sort
+@param toIndex: the index at which to stop the sort
+*/
+void merge_sort(vector<Movie*> & movieVector, int fromIndex, int toIndex)
 {
 	if (fromIndex < toIndex) // don't sort single elements
 	{
 		int mid = (fromIndex + toIndex) / 2;
 
 		// break vector into two halves and sort each half
-		merge_sort(a, fromIndex, mid);
-		merge_sort(a, mid + 1, toIndex);
+		merge_sort(movieVector, fromIndex, mid);
+		merge_sort(movieVector, mid + 1, toIndex);
 
 		// merge sorted halves together
-		merge(a, fromIndex, mid, toIndex);
+		merge(movieVector, fromIndex, mid, toIndex);
 	}
 }
 
-void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex)
+/*
+Part of the recursive algorithm used to sort data
+@param movieVector: the vector that stores Movie objects
+@param fromIndex: the index from which to start the sort
+@param toIndex: the index at which to stop the sort
+*/
+void merge(vector<Movie*> & movieVector, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
@@ -229,14 +239,14 @@ void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex)
 
 	while (i1 <= mid && i2 <= toIndex)
 	{
-		if (a[i1]->getTitle() < a[i2]->getTitle())
+		if (movieVector[i1]->getTitle() < movieVector[i2]->getTitle())
 		{
-			b[j] = a[i1];
+			b[j] = movieVector[i1];
 			i1++;
 		}
 		else
 		{
-			b[j] = a[i2];
+			b[j] = movieVector[i2];
 			i2++;
 		}
 		j++;
@@ -247,39 +257,51 @@ void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex)
 	// copy any remaining entries of the first half
 	while (i1 <= mid)
 	{
-		b[j] = a[i1];
+		b[j] = movieVector[i1];
 		i1++;
 		j++;
 	}
 	// copy any remaining entries of the second half
 	while (i2 <= toIndex)
 	{
-		b[j] = a[i2];
+		b[j] = movieVector[i2];
 		i2++;
 		j++;
 	}
 
 	// copy back from the temporary vector
 	for (j = 0; j < n; j++)
-		a[fromIndex + j] = b[j];
+		movieVector[fromIndex + j] = b[j];
 }
 
-void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex)
+/*
+Part of the recursive algorithm used to sort data
+@param actorVector: the vector that stores Actor objects
+@param fromIndex: the index from which to start the sort
+@param toIndex: the index at which to stop the sort
+*/
+void merge_sort(vector<Actor*> & actorVector, int fromIndex, int toIndex)
 {
 	if (fromIndex < toIndex) // don't sort single elements
 	{
 		int mid = (fromIndex + toIndex) / 2;
 
 		// break vector into two halves and sort each half
-		merge_sort(a, fromIndex, mid);
-		merge_sort(a, mid + 1, toIndex);
+		merge_sort(actorVector, fromIndex, mid);
+		merge_sort(actorVector, mid + 1, toIndex);
 
 		// merge sorted halves together
-		merge(a, fromIndex, mid, toIndex);
+		merge(actorVector, fromIndex, mid, toIndex);
 	}
 }
 
-void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
+/*
+Part of the recursive algorithm used to sort data
+@param actorVector: the vector that stores Actor objects
+@param fromIndex: the index from which to start the sort
+@param toIndex: the index at which to stop the sort
+*/
+void merge(vector<Actor*> & actorVector, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
@@ -295,14 +317,14 @@ void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
 
 	while (i1 <= mid && i2 <= toIndex)
 	{
-		if (a[i1]->getName() < a[i2]->getName())
+		if (actorVector[i1]->getName() < actorVector[i2]->getName())
 		{
-			b[j] = a[i1];
+			b[j] = actorVector[i1];
 			i1++;
 		}
 		else
 		{
-			b[j] = a[i2];
+			b[j] = actorVector[i2];
 			i2++;
 		}
 		j++;
@@ -313,23 +335,27 @@ void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
 	// copy any remaining entries of the first half
 	while (i1 <= mid)
 	{
-		b[j] = a[i1];
+		b[j] = actorVector[i1];
 		i1++;
 		j++;
 	}
 	// copy any remaining entries of the second half
 	while (i2 <= toIndex)
 	{
-		b[j] = a[i2];
+		b[j] = actorVector[i2];
 		i2++;
 		j++;
 	}
 
 	// copy back from the temporary vector
 	for (j = 0; j < n; j++)
-		a[fromIndex + j] = b[j];
+		actorVector[fromIndex + j] = b[j];
 }
 
+/*
+Function used to "trim" leading and trailing white space from a string
+@param s: the string to be "trimmed"
+*/
 void trim(string& s)
 {
 	int start = s.find_first_not_of(" ");
@@ -338,23 +364,37 @@ void trim(string& s)
 	s = s.substr(start, end - start + 1);
 }
 
-bool actorDuplicates(Actor* first, Actor* second)
+/*
+Function used to determine whether a duplicate of an object exists
+@param firstActor: the Actor object that is being compared
+@param secondActor: the Actor object being used as reference
+*/
+bool actorDuplicates(Actor* firstActor, Actor* secondActor)
 {
-	if (first->getName() != second->getName())
+	if (firstActor->getName() != secondActor->getName())
 		return false;
 
 	return true;
 }
 
-bool movieDuplicates(Movie* first, Movie* second)
+/*
+Function used to determine whether a duplicate of an object exists
+@param firstMovie: the Movie object that is being compared
+@param secondMovie: the Movie object being used as reference
+*/
+bool movieDuplicates(Movie* firstMovie, Movie* secondMovie)
 {
-	if ((first->getTitle() == second->getTitle()) && (first->getDirector() == second->getDirector()) && (first->getRating() == second->getRating()) && (first->getYear() == second->getYear()))
+	if ((firstMovie->getTitle() == secondMovie->getTitle()) && (firstMovie->getDirector() == secondMovie->getDirector()) && (firstMovie->getRating() == secondMovie->getRating()) && (firstMovie->getYear() == secondMovie->getYear()))
 		return true;
 
 	return false;
 
 }
 
+/*
+Function that searches the vector of Movie objects 
+@param movieVector: the vector that stores Movie objects
+*/
 void searchMovies(const vector<Movie*>& movieList)
 {
 	string movieName;
@@ -388,6 +428,10 @@ void searchMovies(const vector<Movie*>& movieList)
 	}
 }
 
+/*
+Function that searches the vector of Movie objects
+@param movieVector: the vector that stores Movie objects
+*/
 void searchDirectors(const vector<Movie*>& movieList)
 {
 	string directorName;
@@ -421,6 +465,10 @@ void searchDirectors(const vector<Movie*>& movieList)
 	}
 }
 
+/*
+Function that searches the vector of Movie objects
+@param movieVector: the vector that stores Movie objects
+*/
 void searchRating(const vector<Movie*>& movieList)
 {
 	string rating;
@@ -454,6 +502,10 @@ void searchRating(const vector<Movie*>& movieList)
 	}
 }
 
+/*
+Function that searches the vector of Movie objects
+@param movieVector: the vector that stores Movie objects
+*/
 void searchYear(const vector<Movie*>& movieList)
 {
 	string year;
@@ -474,42 +526,6 @@ void searchYear(const vector<Movie*>& movieList)
 	if (foundMovies.size() != 0)
 	{
 		cout << foundMovies.size() << " instances of " << year << " were found!" << endl << endl;
-		for (int j = 0; j < foundMovies.size(); j++)
-		{
-			foundMovies[j]->output(cout);
-			cout << endl;
-		}
-	}
-	else
-	{
-		cout << "No movies with this name were found! Please try again." << endl;
-		searchMovies(movieList);
-	}
-}
-
-void searchActor(const vector<Movie*>& movieList)
-{
-	string actorName;
-
-	cout << "Enter the actor whos' movies you want to find: ";
-	cin.ignore();
-	getline(cin, actorName);
-	cout << endl;
-
-	vector<Movie*> foundMovies;
-
-	for (int i = 0; i < movieList.size(); i++)
-	{
-		for (int j = 0; j < movieList[i]->getNumActors(); j++)
-		{
-			if (movieList[i]->getYear() == actorName)
-				foundMovies.push_back(movieList[i]);
-		}
-	}
-
-	if (foundMovies.size() != 0)
-	{
-		cout << foundMovies.size() << " instances of " << actorName << " were found!" << endl << endl;
 		for (int j = 0; j < foundMovies.size(); j++)
 		{
 			foundMovies[j]->output(cout);
