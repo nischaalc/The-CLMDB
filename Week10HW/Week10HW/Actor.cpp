@@ -7,22 +7,18 @@
 using namespace std;
 
 
-Actor::Actor()
-{
+Actor::Actor()			//Default Constructor
+{}
 
-}
-
-Actor::Actor(string s)
+Actor::Actor(string s)	//Alternate Constructor
 {
 	actorName_ = s;
 }
 
-Actor::~Actor()
-{
+Actor::~Actor()			//Destructor
+{}
 
-}
-
-string Actor::getName() const
+string Actor::getName() const		
 {
 	return actorName_;
 }

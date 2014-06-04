@@ -1,15 +1,23 @@
+//-----------------------------------------------------------
+//Program Name: movieDB
+//Author: Nischaal Cooray
+//Desciption: Allows the user to create a database of movies and their associated actors
+//-----------------------------------------------------------
+
 #include <iostream>
 #include <algorithm>
 #include <fstream>
 #include <vector>
 #include <sstream>
 #include <string>
+
 #include "Movies.h"
 #include "List.h"
 #include "Node.h"
 
 using namespace std;
 
+//-----------------Prototypes--------------------------------------
 void readFromFile(string userFileName, vector<Movie*>& theMovieList, vector<Actor*>& theActorList);
 
 void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex);
@@ -28,9 +36,11 @@ void searchDirectors(const vector<Movie*>& movieList);
 void searchRating(const vector<Movie*>& movieList);
 void searchYear(const vector<Movie*>& movieList);
 void searchActor(const vector<Movie*>& movieList);
+//-----------------------------------------------------------------
 
 int main(void)
 {
+	//-------------Variables-------------
 	ifstream fin;
 	ofstream mout("ovieOut.txt");
 	ofstream aout("ctorOut.txt");
@@ -38,9 +48,10 @@ int main(void)
 	vector<Actor*> actorList;
 	string fileName, temp, queryChoice;
 	int i = 0;
+	//-----------------------------------
 
 fromFile:
-
+	//-------Introduction----------------
 	cout << "Would you like to read data in from a file? (y/n): ";
 	cin >> temp;
 
@@ -50,6 +61,11 @@ fromFile:
 		cin >> fileName;
 		readFromFile(fileName, theMovieList, actorList);
 	}
+	else if (temp == "n")
+	{
+		cout << "Come back soon!" << endl;
+		return 0;
+	}
 	else
 	{
 		cout << "Unrecognized input. Please try again." << endl;
@@ -58,16 +74,10 @@ fromFile:
 
 	cout << "All done." << endl;
 	cout << "There are a total of " << theMovieList.size() << " different movies and " << actorList.size() << " actors in your database right now!" << endl;
-
-	for (int i = 0; i < theMovieList.size(); i++)
-	{
-		theMovieList[i]->output(mout);
-		mout << endl;
-	}
-
+	//-----------------------------------
 
 search:
-
+	//-----------Queries-----------------
 	cout << "Enter one of the following letters to query the respective data." << endl;
 	cout << "'Movie' - to query for movies by title." << endl;
 	cout << "'Director' - to query for a list of movies directed by the specified director." << endl;
@@ -97,9 +107,16 @@ search:
 		cout << "Come back soon!" << endl;
 		return 0;
 	}
+	//-----------------------------------
 
 }
 
+/*
+Read in data from the file and insert it into the respective objects
+@param userFileName: the name from which the data is to be collected
+@param theMovieList: the vector that stores Movie objects
+@param theActorList: the vector that stores Actor objects
+*/
 void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Actor*>& theActorList)
 {
 	//-----Variables--------
@@ -116,21 +133,22 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 	vector<Actor*> movieActors;
 	//----------------------
 
-	while (!fin.eof())		//Repeat until the end of file is reached
+	while (!fin.eof())					//Repeat until the end of file is reached
 	{
-		movieActors.clear();		//Prepare the vector of actors for new entries
+		movieActors.clear();			//Prepare the vector of actors for new entries
 
 		getline(fin, movieName);		//Read in data from the file
-		trim(movieName);
-		transform(movieName.begin(), ++movieName.begin(), movieName.begin(), toupper);
+		trim(movieName);				//Eliminate white space from the start and end of the string
+		transform(movieName.begin(), ++movieName.begin(), movieName.begin(), toupper);	//Convert the first letter of the string to an uppercase letter
 
 		getline(fin, movieDirector);
-		trim(movieDirector);
-		transform(movieDirector.begin(), ++movieDirector.begin(), movieDirector.begin(), toupper);
+		trim(movieDirector);			//Eliminate white space from the start and end of the string
+		transform(movieDirector.begin(), ++movieDirector.begin(), movieDirector.begin(), toupper);	//Convert the first letter of the string to an uppercase letter
 
 		getline(fin, tempInput);
-		trim(tempInput);
+		trim(tempInput);				//Eliminate white space from the start and end of the string
 
+		//----------Differentiate between reading in the Year and reading in the Rating----------
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
 			movieYear = tempInput;
 		else
@@ -139,7 +157,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 		}
 
 		getline(fin, tempInput);
-		trim(tempInput);
+		trim(tempInput);				//Eliminate white space from the start and end of the string
 		
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
 			movieYear = tempInput;
@@ -147,6 +165,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 		{
 			movieRating = tempInput;
 		}
+		//---------------------------------------------------------------------------------------
 
 		getline(fin, movieURL);
 
@@ -154,10 +173,10 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 
 		while (checkInput.substr(0, 3) != delimiter)		//Read in actor data until the delimiter is reached
 		{
-			trim(checkInput);
-			transform(checkInput.begin(), ++checkInput.begin(), checkInput.begin(), toupper);
-			Actor* temp = new Actor(checkInput);
-			movieActors.push_back(temp);
+			trim(checkInput);								//Eliminate white space from the start and end of the string
+			transform(checkInput.begin(), ++checkInput.begin(), checkInput.begin(), toupper);	//Convert the first letter of the string to an uppercase letter
+			Actor* temp = new Actor(checkInput);			//Create a new memory location to store the Actor object
+			movieActors.push_back(temp);					//Add the 
 			theActorList.push_back(temp);
 			getline(fin, checkInput);
 		}
