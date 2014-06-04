@@ -26,3 +26,13 @@ string Actor::getName() const
 {
 	return actorName_;
 }
+
+void Actor::setName(string s)
+{
+	actorName_ = s;
+}
+
+void Actor::addMovie(Movie* moviePtr)
+{
+	actorMovies_.push_back(moviePtr);
+}

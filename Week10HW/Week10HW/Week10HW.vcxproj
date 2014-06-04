@@ -80,7 +80,7 @@
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Movie.cpp" />
-    <ClCompile Include="movieDB.cpp" />
+    <ClCompile Include="movieDB - Before List.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />

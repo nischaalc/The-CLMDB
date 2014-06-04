@@ -17,7 +17,7 @@ Movie::Movie(const string& title)		//Alternate Constructor
 	title_ = title;
 }
 
-Movie::Movie(const string& title, const string& director, const string& rating, const string& year, const string& path, const vector<string>& actors, const vector<Actor*>& actorList)	//Alternate Constructor
+Movie::Movie(const string& title, const string& director, const string& rating, const string& year, const string& path, const vector<Actor*>& actorList)	//Alternate Constructor
 {
 	title_ = title;
 	director_ = director;
@@ -25,18 +25,16 @@ Movie::Movie(const string& title, const string& director, const string& rating, 
 	year_ = year;
 	url_ = path;
 
-	for (int i = 0; i < actors.size(); i++)
+	for (int i = 0; i < actorList.size(); i++)
 	{
-		actors_.push_back(actors[i]);
+		actorPointers_.push_back(actorList[i]);
 	}
 
 }
 
-
 Movie::~Movie()
 {
 }
-
 
 string Movie::getTitle() const
 {
@@ -65,7 +63,7 @@ string Movie::getURL() const
 
 int Movie::getNumActors() const
 {
-	return actors_.size();
+	return actorPointers_.size();
 }
 
 void Movie::setDirector(const string& director)
@@ -93,10 +91,11 @@ void Movie::setTitle(const string& title)
 	title_ = title;
 }
 
-void Movie::addActor(const string& actor)
+void Movie::addActor(Actor*& actor)
 {
-	actors_.push_back(actor);
+	actorPointers_.push_back(actor);
 }
+
 
 void Movie::output(ostream & out)			//Output to either console or file
 {
@@ -109,9 +108,10 @@ void Movie::output(ostream & out)			//Output to either console or file
 	out << "IMDB URL: " << getURL() << endl;
 
 	out << "Cast: " << endl;
+	
 	for (int i = 0; i < getNumActors(); i++)
 	{
-		out << actors_[i] << endl;
+		out << actorPointers_[i]->getName() << endl;
 	}
 
 }

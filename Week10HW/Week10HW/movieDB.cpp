@@ -10,13 +10,13 @@
 
 using namespace std;
 
-void readFromFile(string userFileName, vector<Movie*>& theMovieList, vector<Actor*>& theActorList);
+void readFromFile(string userFileName, vector<Movie*>& theMovieList, List<Actor*>& theActorList);
 
 void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex);
 void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex);
 
-void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex);
-void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(List<Actor*> & a, int fromIndex, int toIndex);
+void merge(List<Actor*> & a, int fromIndex, int mid, int toIndex);
 
 bool actorDuplicates(Actor* first, Actor* second);
 bool movieDuplicates(Movie* first, Movie* second);
@@ -29,7 +29,7 @@ int main(void)
 	ofstream mout("ovieOut.txt");
 	ofstream aout("ctorOut.txt");
 	vector<Movie*> theMovieList;
-	vector<Actor*> actorList;
+	List<Actor*> actorList;
 
 	int i = 0;
 
@@ -51,7 +51,7 @@ int main(void)
 	}
 }
 
-void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Actor*>& theActorList)
+void readFromFile(string userFileName, vector<Movie*> & theMovieList, List<Actor*>& theActorList)
 {
 	//-----Variables--------
 	ifstream fin;
@@ -91,7 +91,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 
 		getline(fin, tempInput);
 		trim(tempInput);
-		
+
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
 			movieYear = tempInput;
 		else
@@ -126,7 +126,7 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Act
 	merge_sort(theActorList, 0, theActorList.size() - 1);
 
 	theMovieList.erase(unique(theMovieList.begin(), theMovieList.end(), movieDuplicates), theMovieList.end());
-	theActorList.erase(unique(theActorList.begin(), theActorList.end(), actorDuplicates), theActorList.end());
+	//theActorList.erase(unique(theActorList.begin(), theActorList.end(), actorDuplicates), theActorList.end());
 }
 
 void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex)
@@ -195,7 +195,7 @@ void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex)
 		a[fromIndex + j] = b[j];
 }
 
-void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex)
+void merge_sort(List<Actor*> & a, int fromIndex, int toIndex)
 {
 	if (fromIndex < toIndex) // don't sort single elements
 	{
@@ -210,12 +210,14 @@ void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex)
 	}
 }
 
-void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
+void merge(List<Actor*> & a, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
 	// merge both halves into a temporary vector b
-	vector<Actor*> b(n);
+	List<Actor*> b;
+
+	b.setSize(a.size());
 
 	int i1 = fromIndex;  // next element to consider in the first half
 	int i2 = mid + 1;    // next element to consider in the second half
@@ -228,12 +230,12 @@ void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
 	{
 		if (a[i1]->getName() < a[i2]->getName())
 		{
-			b[j] = a[i1];
+			b[j]->setName(a[i1]->getName());
 			i1++;
 		}
 		else
 		{
-			b[j] = a[i2];
+			b[j]->setName(a[i2]->getName());
 			i2++;
 		}
 		j++;
@@ -244,28 +246,28 @@ void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
 	// copy any remaining entries of the first half
 	while (i1 <= mid)
 	{
-		b[j] = a[i1];
+		b[j]->setName(a[i1]->getName());
 		i1++;
 		j++;
 	}
 	// copy any remaining entries of the second half
 	while (i2 <= toIndex)
 	{
-		b[j] = a[i2];
+		b[j]->setName(a[i2]->getName());
 		i2++;
 		j++;
 	}
 
 	// copy back from the temporary vector
 	for (j = 0; j < n; j++)
-		a[fromIndex + j] = b[j];
+		a[fromIndex + j]->setName(b[j]->getName());
 }
 
 void trim(string& s)
 {
 	int start = s.find_first_not_of(" ");
 	int end = s.find_last_not_of(" ");
-	
+
 	s = s.substr(start, end - start + 1);
 }
 

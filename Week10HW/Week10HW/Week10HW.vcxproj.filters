@@ -18,10 +18,10 @@
     <ClCompile Include="Movie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="movieDB.cpp">
+    <ClCompile Include="Actor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Actor.cpp">
+    <ClCompile Include="movieDB - Before List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

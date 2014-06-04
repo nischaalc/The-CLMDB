@@ -22,6 +22,9 @@ public:
 
 	string getName() const;
 
+	void setName(string s);
+	void addMovie(Movie* moviePtr);
+
 private:
 	List<Movie*> actorMovies_;
 	string actorName_;

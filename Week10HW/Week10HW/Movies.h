@@ -48,7 +48,6 @@ public:
 		const string& rating,
 		const string& year,
 		const string& path,
-		const vector<string>& actors,
 		const vector<Actor*>& actorList);
 
 	// ------------------------------------------------------
@@ -77,7 +76,7 @@ public:
 	void setYear(const string& year);
 	void setURL(const string& path);
 	void setTitle(const string& title);
-	void addActor(const string& actor);
+	void addActor(Actor*& actor);
 
 	// ------------------------------------------------------
 	// ----- Facilitators ---------------------------------------
@@ -95,7 +94,6 @@ private:
 	string rating_;
 	string year_;
 	string url_;
-	vector<string> actors_;
 	vector<Actor*> actorPointers_;
 
 };
