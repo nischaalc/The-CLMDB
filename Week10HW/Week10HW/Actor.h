@@ -11,6 +11,9 @@ using namespace std;
 
 class Actor
 {
+
+	friend class Movie;
+
 public:
 	Actor();
 	Actor(string s);
@@ -20,7 +23,7 @@ public:
 	string getName() const;
 
 private:
-//	List<Movie*> actorMovies_;
+	List<Movie*> actorMovies_;
 	string actorName_;
 };
 

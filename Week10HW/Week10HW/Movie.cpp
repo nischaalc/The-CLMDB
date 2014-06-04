@@ -17,7 +17,7 @@ Movie::Movie(const string& title)		//Alternate Constructor
 	title_ = title;
 }
 
-Movie::Movie(const string& title, const string& director, const string& rating, const string& year, const string& path, const vector<string>& actors)	//Alternate Constructor
+Movie::Movie(const string& title, const string& director, const string& rating, const string& year, const string& path, const vector<string>& actors, const vector<Actor*>& actorList)	//Alternate Constructor
 {
 	title_ = title;
 	director_ = director;
@@ -96,11 +96,6 @@ void Movie::setTitle(const string& title)
 void Movie::addActor(const string& actor)
 {
 	actors_.push_back(actor);
-}
-
-string Actor::getName() const
-{
-	return actorName_;
 }
 
 void Movie::output(ostream & out)			//Output to either console or file

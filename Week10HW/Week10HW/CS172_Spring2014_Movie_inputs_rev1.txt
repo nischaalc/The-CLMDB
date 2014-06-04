@@ -1142,7 +1142,8 @@ http://www.imdb.com/title/tt2023587
 Jessica Chastain
 Nikolaj Coster-Waldau
 Megan Charpentier
-$$$movie Gone With the Wind
+$$$
+movie Gone With the Wind
 director Victor Fleming
 1939
 PG
@@ -1403,6 +1404,7 @@ Léa Seydoux
 Adèle Exarchopoulos
 Salim Kechiouche
 Aurélien Recoing
+$$$$
 300
 Zack Snyder
 201
@@ -1747,6 +1749,7 @@ Sam Neill
 Laura Dern
 Jeff Goldblum
 Richard Attenborough
+$$$$
 The Lord of the Rings: The Fellowship of the Ring
 Peter Jackson
 2001
@@ -1796,6 +1799,7 @@ Malin Akerman
 Billy Crudup
 Matthew Goode
 Jackie Earle Haley
+$$$$
 Spiderman
 Sam Rami
 2002
@@ -2198,7 +2202,9 @@ http://www.imdb.com/title/tt0117509/
 Leonardo DiCaprio
 Claire Danes
 John Leguizamo
-Harold ParrineauMy Neighbor Totoro
+Harold Parrineau
+$$$$
+My Neighbor Totoro
 Hayao Miyazaki
 1988
 0
@@ -2305,7 +2311,9 @@ Robert De Niro
 Ray Liotta
 Joe Pesci
 Lorraine Bracco
-Paul SorvinoSummer Wars
+Paul Sorvino
+$$$$
+Summer Wars
 Mamoru Hosoda
 PG
 2009
@@ -2571,7 +2579,9 @@ G
 www.imdb.com
 Matthew Broderick
 Jeremy Irons
-James Earl JonesFrozen
+James Earl Jones
+$$$$
+Frozen
 Chris Buck
 2013
 PG
@@ -2972,7 +2982,9 @@ http://www.imdb.com/title/tt1853728/
 Jamie Foxx
 Christoph Waltz
 Leonardo DiCaprio
-Samuel L. JacksonCaptain America - The Winter Soldier
+Samuel L. Jackson
+$$$$
+Captain America - The Winter Soldier
 Anthony Russo
 2014
 PG13
@@ -3382,7 +3394,8 @@ Ethan Hawke
 Uma Thurman
 Gore Vidal
 Xander Berkeley
-$$$$ï»¿The Shawshank Redemption
+$$$$
+The Shawshank Redemption
 Frank Darabont
 1971
 R

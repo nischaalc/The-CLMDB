@@ -10,59 +10,59 @@
 
 using namespace std;
 
-void readFromFile(string userFileName, vector<Movie*>& theMovieList, vector<string>& theActorList);
+void readFromFile(string userFileName, vector<Movie*>& theMovieList, vector<Actor*>& theActorList);
 
 void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex);
 void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex);
 
-void merge_sort(vector<string> & a, int fromIndex, int toIndex);
-void merge(vector<string> & a, int fromIndex, int mid, int toIndex);
+void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex);
+void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex);
+
+bool actorDuplicates(Actor* first, Actor* second);
+bool movieDuplicates(Movie* first, Movie* second);
 
 void trim(string& s);
-
-bool doesExist(string mTitle, string mDir, string mRate, string mYear, vector<Movie*>& m);
 
 int main(void)
 {
 	ifstream fin;
-	ofstream mout("movieOut.txt");
-	ofstream aout("actorOut.txt");
+	ofstream mout("ovieOut.txt");
+	ofstream aout("ctorOut.txt");
 	vector<Movie*> theMovieList;
-	vector<string> actorList;
+	vector<Actor*> actorList;
 
 	int i = 0;
 
-	string fileName = "sample.txt";
+	string fileName = "CS172_Spring2014_Movie_inputs_rev1.txt";
 
 	readFromFile(fileName, theMovieList, actorList);
 
 	for (int i = 0; i < actorList.size(); i++)
 	{
-		aout << actorList[i] << endl;
+		aout << actorList[i]->getName() << endl;
 	}
 
 	for (int i = 0; i < theMovieList.size(); i++)
 	{
 		theMovieList[i]->output(mout);
+		mout << endl << endl;
 	}
 }
 
-void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<string>& theActorList)
+void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<Actor*>& theActorList)
 {
 	//-----Variables--------
 	ifstream fin;
 	fin.open(userFileName);
-	string delimiter = "$$$$";
+	string delimiter = "$$$";
 	bool newMovie = false;
 	string getInput;
 	string tempInput;
-	ofstream sOut("sub.txt");
 
 	int i = 0;
 
 	string movieName, movieDirector, movieURL, movieRating, checkInput, movieYear, correctMovieRating;
 	vector<string> movieActors;
-	vector<Actor> actors;
 	//----------------------
 
 	while (!fin.eof())		//Repeat until the end of file is reached
@@ -92,6 +92,8 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 		trim(tempInput);
 		istringstream st(tempInput);
 
+		fin.ignore();
+
 		if ((tempInput.substr(0, 1) == "1") || (tempInput.substr(0, 1) == "2"))
 			st >> movieYear;
 		else
@@ -99,28 +101,24 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 			st >> movieRating;
 		}
 
-		doesExist(movieName, movieDirector, movieRating, movieYear, theMovieList);
-
-		fin.ignore();
 		getline(fin, movieURL);
 
 		getline(fin, checkInput);
 
-		while (checkInput != delimiter)		//Read in actor data until the delimiter is reached
+		while (checkInput.substr(0, 3) != delimiter)		//Read in actor data until the delimiter is reached
 		{
 			trim(checkInput);
 			transform(checkInput.begin(), ++checkInput.begin(), checkInput.begin(), toupper);
 			movieActors.push_back(checkInput);
-			theActorList.push_back(checkInput);
+			Actor* temp = new Actor(checkInput);
+			theActorList.push_back(temp);
 			getline(fin, checkInput);
-			
 		}
 
-		
-		Movie* temp = new Movie(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors);			//Assign collected data to a movie object
+		Movie* temp = new Movie(movieName, movieDirector, correctMovieRating, movieYear, movieURL, movieActors, theActorList);			//Assign collected data to a movie object
 
 		theMovieList.push_back(temp);			//Push the newly created movie object onto a vector
-		
+
 		i++;		//Increment the index
 
 	}
@@ -128,6 +126,8 @@ void readFromFile(string userFileName, vector<Movie*> & theMovieList, vector<str
 	merge_sort(theMovieList, 0, theMovieList.size() - 1);
 	merge_sort(theActorList, 0, theActorList.size() - 1);
 
+	theMovieList.erase(unique(theMovieList.begin(), theMovieList.end(), movieDuplicates), theMovieList.end());
+	theActorList.erase(unique(theActorList.begin(), theActorList.end(), actorDuplicates), theActorList.end());
 }
 
 void merge_sort(vector<Movie*> & a, int fromIndex, int toIndex)
@@ -196,7 +196,7 @@ void merge(vector<Movie*> & a, int fromIndex, int mid, int toIndex)
 		a[fromIndex + j] = b[j];
 }
 
-void merge_sort(vector<string> & a, int fromIndex, int toIndex)
+void merge_sort(vector<Actor*> & a, int fromIndex, int toIndex)
 {
 	if (fromIndex < toIndex) // don't sort single elements
 	{
@@ -211,12 +211,12 @@ void merge_sort(vector<string> & a, int fromIndex, int toIndex)
 	}
 }
 
-void merge(vector<string> & a, int fromIndex, int mid, int toIndex)
+void merge(vector<Actor*> & a, int fromIndex, int mid, int toIndex)
 {
 	int n = toIndex - fromIndex + 1; // size of the range to be merged
 
 	// merge both halves into a temporary vector b
-	vector<string> b(n);
+	vector<Actor*> b(n);
 
 	int i1 = fromIndex;  // next element to consider in the first half
 	int i2 = mid + 1;    // next element to consider in the second half
@@ -227,7 +227,7 @@ void merge(vector<string> & a, int fromIndex, int mid, int toIndex)
 
 	while (i1 <= mid && i2 <= toIndex)
 	{
-		if (a[i1] < a[i2])
+		if (a[i1]->getName() < a[i2]->getName())
 		{
 			b[j] = a[i1];
 			i1++;
@@ -270,25 +270,20 @@ void trim(string& s)
 	s = s.substr(start, end - start + 1);
 }
 
-bool doesExist(string mTitle, string mDir, string mRate, string mYear, vector<Movie*>& m)
+bool actorDuplicates(Actor* first, Actor* second)
 {
-	ofstream fout("dupes.txt");
-	int counter = 0;
-	bool returnVal = false;
+	if (first->getName() != second->getName())
+		return false;
 
-	for (int i = 0; i < m.size(); i++)
-	{
-		if ((m[i]->getTitle() == mTitle) || (m[i]->getDirector() == mDir) || (m[i]->getRating() == mRate) || (m[i]->getYear() == mYear))
-		{
-			fout << "Duplicate at: " << i << " - " << m[i]->getTitle() << endl;
-			counter++;
-		}
-		else
-		{
-			fout << "The movie " << m[i]->getTitle() << " does not have exact duplicates." << endl;
-		}
-	}
+	return true;
+}
 
-	return returnVal;
+bool movieDuplicates(Movie* first, Movie* second)
+{
+	if ((first->getTitle() != second->getTitle()) && (first->getDirector() != second->getDirector()) && (first->getRating() != second->getRating()) && (first->getYear() != second->getYear()))
+		return false;
 
+	return true;
+
+	//
 }

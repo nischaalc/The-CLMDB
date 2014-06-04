@@ -21,3 +21,8 @@ Actor::~Actor()
 {
 
 }
+
+string Actor::getName() const
+{
+	return actorName_;
+}

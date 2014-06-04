@@ -48,7 +48,8 @@ public:
 		const string& rating,
 		const string& year,
 		const string& path,
-		const vector<string>& actors);
+		const vector<string>& actors,
+		const vector<Actor*>& actorList);
 
 	// ------------------------------------------------------
 	// ----- Destructor -------------------------------------
