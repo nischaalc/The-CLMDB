@@ -1,4 +1,4 @@
-movieDB
+CLMDB
 =======
 
 CLMDB is finally a thing! Yeah, that's right, Command Line Movie Database is here to give IMDB a run for it's money. 
