@@ -41,8 +41,8 @@ int main(void)
 {
 	//-------------Variables-------------
 	ifstream fin;
-	ofstream mout("ovieOut.txt");
-	ofstream aout("ctorOut.txt");
+	ofstream mout("movieOut.txt");
+	ofstream aout("actorOut.txt");
 	vector<Movie*> theMovieList;
 	vector<Actor*> actorList;
 	string fileName, temp, queryChoice;
@@ -51,6 +51,7 @@ int main(void)
 
 fromFile:
 	//-------Introduction----------------
+	cout << "<---- Welcome to movieDB! Your very own command line database manager! ---->" << endl << endl;
 	cout << "Would you like to read data in from a file? (y/n): ";
 	cin >> temp;
 
@@ -75,6 +76,16 @@ fromFile:
 	cout << "There are a total of " << theMovieList.size() << " different movies and " << actorList.size() << " actors in your database right now!" << endl;
 	//-----------------------------------
 
+	for (int i = 0; i < theMovieList.size(); i++)
+	{
+		theMovieList[i]->output(mout);
+		mout << endl;
+	}
+
+	for (int i = 0; i < actorList.size(); i++)
+	{
+		aout << actorList[i]->getName() << endl;
+	}
 search:
 	//-----------Queries-----------------
 	cout << "Enter one of the following letters to query the respective data." << endl;

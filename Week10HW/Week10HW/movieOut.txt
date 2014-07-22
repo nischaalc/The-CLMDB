@@ -1,0 +1,2859 @@
+Movie: 101 Dalmations
+Director: Clyde Geronimi
+Year: 1961
+Rating: G
+IMDB URL: www.imdb.com/title/tt0055254
+Cast: 
+Betty Lou Gerson
+J. Patt O'Malley
+Martha Wentworth
+Rod Taylor
+
+Movie: 12 Angry Men
+Director: Sidney Lumet
+Year: 1957
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt0050083/
+Cast: 
+E.G. Marshall
+John Fiedler
+Lee J. Cobb
+Martin Balsam
+
+Movie: 12 Years a Slave
+Director: Steve McQueen
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2024544/
+Cast: 
+Ashley Dyke
+Bryan Batt
+Chiwetel Ejiofor
+Dwight Henry
+Lupita Nyong'o
+
+Movie: 300
+Director: Zack Snyder
+Year: 201
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0416449/?ref_=nv_sr_2
+Cast: 
+Gerard Butler
+Lena Headey
+Rodrigo Santoro
+
+Movie: 300
+Director: Zack Snyder
+Year: 2013
+Rating: Rating: R
+IMDB URL: http://www.imdb.com/title/tt0416449/
+Cast: 
+David Wenham
+Dominic West
+Gerard Butler
+Lena Headey
+Michael Fassbender
+Tom Wisdom
+Vincent Regan
+
+Movie: 300
+Director: Zack Snyder
+Year: 2006
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0416449/
+Cast: 
+Dominic West
+Gerard Butler
+Lena Headey
+Rodrigo Santoro
+
+Movie: 300: Rise of an Empire
+Director: Noam Murro
+Year: 2014
+Rating: R
+IMDB URL: www.imdb.com/title/tt1253863/
+Cast: 
+Eva Green
+Hans Matheson
+Lena Headley
+Sullivan Stapleton
+
+Movie: 9
+Director: Shane Acker
+Year: 2009
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0472033/
+Cast: 
+Christopher Plummer
+Elijah Wood
+Jennifer Connelly
+John C. Reily
+
+Movie: A Serbian Film
+Director: Srdjan Spasojevic
+Year: 2010
+Rating: NC17
+IMDB URL: www.imdb.com/title/tt1273235/?ref_=nv_sr_1
+Cast: 
+Jelena Gavrilovic
+Sergej Trifunovic
+Srdjan Todorovic
+
+Movie: Abraham Lincoln: Vampire Hunter
+Director: Timur Bekmambetov
+Year: 2012
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1611224/?ref_=nv_sr_2 
+Cast: 
+Anthony Mackie
+Benjamin Walker
+Dominic Cooper
+Mary Elizabeth Winstead
+
+Movie: Akira
+Director: Katsuhiro Otomo
+Year: 1988
+Rating: 3
+IMDB URL: http://www.imdb.com/title/tt0094625/
+Cast: 
+Hiroshi Otake
+Mami Koyama
+Mitsuo Iwata
+Nozomu Sasaki
+Tessho Genda
+
+Movie: Alan Partridge
+Director: Declan Lowney
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0469021/
+Cast: 
+Colm Meaney
+Karl Theobald
+Steve Coogan
+Tim Key
+
+Movie: Alien
+Director: Ridley Scott
+Year: 1979
+Rating: R
+IMDB URL: www.imdb.com/title/tt0078748/
+Cast: 
+Harry Dean Stanton
+Sigourney Weaver
+Tom Skerrit
+Veronica Cartwright
+
+Movie: Aliens
+Director: James Cameron
+Year: 1986
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0090605/?ref_=nv_mv_dflt_2
+Cast: 
+Carrie Henn
+Michael Biehn
+Paul Reiser
+Sigourney Weaver
+
+Movie: Amelie
+Director: Jean-Pierre Jeunet
+Year: 2001
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0211915/
+Cast: 
+Audrey Tautou
+Lorella Cravotta
+Mathieu Kassovitz
+Rufus
+
+Movie: American Gangster
+Director: Ridley Scott
+Year: 2007
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0765429/?ref_=nv_sr_1
+Cast: 
+Chiwetel Ejiofor
+Denzel Washington
+Josh Brolin
+Lymari Nadal
+Russell Crowe
+Ted Levine
+
+Movie: American Hustle
+Director: David O.Russel
+Year: 2014
+Rating: R
+IMDB URL: www.imdb.com/title/tt1800241/
+Cast: 
+Amy Adams
+Bradley Cooper
+Christian Bale
+Jemmifer Lawrence
+Jermy Renner
+
+Movie: Anchorman: The Legend of Ron Burgundy
+Director: Adam McKay
+Year: 2004
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0357413/?ref_=nv_sr_2
+Cast: 
+Christina Applegate
+Paul Rudd
+Steve Carrell
+Will Ferrell
+
+Movie: Anchorman: The Legend of Ron Burgundy
+Director: Adam McKay
+Year: 2004
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0357413
+Cast: 
+Christina Applegate
+David Koechner
+Paul Rudd
+Steve Carell
+Will Ferrell
+
+Movie: Antz
+Director: Eric Darnell, Tim Johnson
+Year: 1998
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0120587/?ref_=fn_al_tt_1
+Cast: 
+Anne Bancroft
+Dan Aykroyd
+Jane Curtin
+Woody Allen
+
+Movie: Atlas Shrugged
+Director: Paul Johansson
+Year: 2011
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0480239/?ref_=nv_sr_2
+Cast: 
+Grant Bowler
+Matthew Marsden
+Taylor Schilling
+
+Movie: August Rush
+Director: Kirsten Sheridan
+Year: 2007
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0426931/
+Cast: 
+Freddie Highmore
+Jonathan Rhys Meyers
+Keri Russell
+Robin Williams
+Terrence Howard
+
+Movie: Avatar
+Director: James Cameron
+Year: 2009
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0499549/
+Cast: 
+Sam Worthington
+
+Movie: Back to the Future
+Director: Robert Zemeckis
+Year: 1985
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0088763/
+Cast: 
+Christopher Lloyd
+Claudia Wells
+Crispin Glover
+Lea Thompson
+Michael Fox
+Thomas Wilson
+
+Movie: Back to the Future Part II
+Director: Robert Zemeckis
+Year: 1989
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0096874/?ref_=fn_al_tt_3
+Cast: 
+Christopher Lloyd
+Elisabeth Shue
+Lea Thompson
+Michael J. Fox
+Thomas F. Wilson
+
+Movie: Bad Education
+Director: Pedro AlmodÛvar
+Year: 2004
+Rating: NC17
+IMDB URL: http://www.imdb.com/title/tt0275491/
+Cast: 
+Daniel Giménez Cacho
+Fele Martínez
+Gael García Bernal
+Lluís Homar
+
+Movie: Bambi
+Director: James Algar
+Year: 1942
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt0034492/?ref_=nv_sr_3 
+Cast: 
+Bobette Audrey
+Hardie Albright
+Peter Bern
+Stan Alexander
+
+Movie: Beauty and the Beast
+Director: Gary Trousdale, Kirk Wise
+Year: 1991
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0101414/
+Cast: 
+David Ogden Stiers
+Jerry Orbach
+Paige O'Hara
+Richard White
+Robby Benson
+
+Movie: Birdemic: Shock and Terror
+Director: James Nguyen
+Year: 2010
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt1316037/
+Cast: 
+Alan Magh
+Janae Caster
+Tippi Hedren
+Whitney Moore
+
+Movie: Blue Is the Warmest Color
+Director: Abdellatif Kechiche
+Year: 2013
+Rating: NC-17
+IMDB URL: http://www.imdb.com/title/tt2278871/
+Cast: 
+Adele Exarchopoulos
+Aurelien Recoing
+Lea Seydoux
+Salim Kechiouche
+
+Movie: Blue Is the Warmest Color
+Director: Abdellatif Kechiche
+Year: 2013
+Rating: NC17
+IMDB URL: http://www.imdb.com/title/tt2278871/
+Cast: 
+Adèle Exarchopoulos
+Aurélien Recoing
+Léa Seydoux
+Salim Kechiouche
+
+Movie: Braveheart
+Director: Mel Gibson
+Year: 1995
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0112573/
+Cast: 
+James Cosmo
+James Robinson
+Sandy Nelson
+Sean Lawlor
+Sean McGinley
+
+Movie: Caddyshack
+Director: Harold Ramis
+Year: 1980
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0080487/
+Cast: 
+Bill Murray
+Chevy Chase
+Michael O'Keefe
+Rodney Dangerfield
+Ted Knight
+
+Movie: Captain America - The Winter Soldier
+Director: Anthony Russo
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1843866/
+Cast: 
+Chris Evans
+Robert Redford
+Samuel L. Jackson
+Scarlett Johansson
+
+Movie: Captain America: The Winter Soldier
+Director: Anthony Russo
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1843866/
+Cast: 
+Anthony Mackie
+Chris Evans
+Robert Redford
+Samuel L. Jackson
+Scarlett Johansson
+Sebastian Stan
+
+Movie: Carrie
+Director: Kimberly Peirce
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1939659/
+Cast: 
+Chloë Grace Moretz
+Gabriella Wilde
+Julianne Moore
+Samantha Weinstein
+
+Movie: Castle in the Sky
+Director: Hayao Miyazaki
+Year: 1986
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0092067/
+Cast: 
+Anna Paquin
+Cloris Leachman
+James Van Der Beek
+Mark Hamill
+
+Movie: Charlie and the Chocolate Factory
+Director: Tim Burton
+Year: 2005
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0367594/
+Cast: 
+David Kelly
+Freddie Highmore
+Helena Bonham Carter
+Johnny Depp
+
+Movie: Clash of Titans
+Director: Louis Leterrier
+Year: 2010
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0800320/
+Cast: 
+Liam Neeson
+Ralph Fiennes
+Sam Worthington
+
+Movie: Crazy, Stupid, Love.
+Director: Glenn Ficarra
+Year: 2011
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1570728/?ref_=nm_knf_i2
+Cast: 
+Emma Stone
+Julianne Moore
+Ryan Gosling
+Steve Carell
+
+Movie: Despicable Me
+Director: Pierre Coffin
+Year: 2010
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt1323594/
+Cast: 
+Dana Gaier
+Jason Segel
+Ken Daurio
+Mindy Kaling
+Russell Brand
+Steve Carell
+
+Movie: Divergent
+Director: Neil Burger
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1840309/
+Cast: 
+Ashley Judd
+Jai Courtney
+Shailene Woodley
+Theo James
+
+Movie: Django Unchained
+Director: Quentin Tarantino
+Year: 2012
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1853728/
+Cast: 
+Christoph Waltz
+Jamie Foxx
+Leonardo DiCaprio
+Samuel L. Jackson
+
+Movie: Donnie Darko
+Director: Richard Kelly
+Year: 2001
+Rating: R
+IMDB URL: www.imdb.com/title/tt0246578/?ref_=nv_sr_1
+Cast: 
+Holmes Osborne
+Jake Gyllenhaal
+Maggie Gyllenhall
+
+Movie: Double Idemnity
+Director: Billy Wilder
+Year: 1944
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0036775/
+Cast: 
+Barbara Stanwyck
+Byron Barr
+Edward G. Robinson
+Fred MacMurray
+
+Movie: Draft Day
+Director: Ivan Reitman
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt2223990/
+Cast: 
+Chi McBride
+Chris Berman
+Dave Donaldson
+Jon Gruden
+Kevin Costner
+Mel Kiper
+Patrick St.Esprit
+
+Movie: Drinking Buddies
+Director: Joe Swanberg
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2265398/?ref_=nv_sr_1
+Cast: 
+Anna Kendrick
+Jake Johnson
+Olivia Wilde
+
+Movie: E.T. the Extra-Terrestrial
+Director: Steven Spielberg
+Year: 1982
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0083866/
+Cast: 
+Dee Wallace
+Drew Barrymore
+Henry Thomas
+Peter Coyote
+Robert MacNaughton
+
+Movie: Edward Scissorhands
+Director: Tim Burton
+Year: 1990
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0099487/?ref_=nv_sr_1
+Cast: 
+Anthony Michael Hall
+Dianne Wiest
+Johnny Depp
+Kathy Baker
+Winona Ryder
+
+Movie: Elf
+Director: Jon Favreau
+Year: 2003
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0319343/
+Cast: 
+Bob Newhart
+Edward Asner
+James Caan
+Will Ferrel
+
+Movie: Enemy
+Director: DennisVilleneuve
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2316411/
+Cast: 
+Isabella Rossellini
+Jake Gyllenhaal
+MÃ©lanie Laurent
+Sarah Gadon
+
+Movie: Eraserhead
+Director: David Lynch
+Year: 1977
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0074486/
+Cast: 
+Allen Joseph
+Charlotte Stewart
+Jack Nance
+Jeanne Bates
+
+Movie: Fargo
+Director: Joel Coen
+Year: 1996
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0116282/
+Cast: 
+Kristin Rudrüd
+Peter Stormare
+Steve Buscemi
+William H. Macy
+
+Movie: Fellowship of the Ring
+Director: Peter Jackson
+Year: 2001
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0120737/
+Cast: 
+Elijah Wood
+Ian Mckellen
+Orlando Bloom
+Sean Astin
+
+Movie: Ferris Bueller's Day Off
+Director: John Hughes
+Year: 1986
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0091042/
+Cast: 
+Alan Ruck
+Jeffrey Jones
+Jennifer Grey
+Matthew Broderick
+Mia Sara
+
+Movie: Fight Club
+Director: David Fincher
+Year: 1999
+Rating: R
+IMDB URL: www.imdb.com/title/tt0137523/?ref_=nv_sr_1
+Cast: 
+Brad Pitt
+Edward Norton
+Helena Bonham Carter
+Zach Grenier
+
+Movie: Final Destination 5
+Director: Steven Quale
+Year: 2011
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1622979
+Cast: 
+Ellen Wroe
+Emma Bell
+Jacqueline MacInnes Wood
+Miles Fisher
+Nicholas D'Agosto
+P.J. Byrne
+
+Movie: Finding Nemo
+Director: Andrew Stanton
+Year: 2003
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0266543/
+Cast: 
+Albert Brooks
+Alexander Gould
+Ellen DeGeneres
+
+Movie: Forrest Gump
+Director: Robert Zemeckis
+Year: 1994
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0109830/?ref_=nv_sr_1
+Cast: 
+Gary Sinise
+Mykelti Williamson
+Robin Wright
+Tom Hanks
+
+Movie: Forrest Gump
+Director: Robert Zemeckis
+Year: 1994
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0109830/?ref_=nv_sr_1
+Cast: 
+Mykelti Williamson
+Robin Wright
+Sally Field
+Tom Hanks
+
+Movie: Frontier(s)
+Director: Xavier Gens
+Year: 2007
+Rating: NC-17
+IMDB URL: http://www.imdb.com/title/tt0814685/
+Cast: 
+AurÃ©lien Wiik
+David Saracino
+Estelle LefÃ©bure
+Karina Testa
+Samuel Le Bihan
+
+Movie: Frozen
+Director: Chris Buck, Jennifer Lee
+Year: 2013
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2294629/
+Cast: 
+Idina Menzel
+Jonathan Groff
+Josh Gad
+Kristen Bell
+Santino Fontana
+
+Movie: Frozen
+Director: Chris Buck
+Year: 2013
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2294629/?ref_=nv_sr_1
+Cast: 
+Idina Menzel
+Jonathan Groff
+Josh Gad
+Kristen Bell
+
+Movie: Frozen
+Director: Chris Buck, Jennifer Lee
+Year: 2013
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2294629/?ref_=nv_sr_1
+Cast: 
+Idina Menzel
+Josh Gad
+Kristen Bell
+Santino fontana
+
+Movie: Frozen
+Director: Chris Buck
+Year: 2013
+Rating: PG
+IMDB URL: www.imdb.com/title/tt2294629
+Cast: 
+Idina Menzel
+Jonathan Groff
+Josh Gad
+Kristen Bell
+
+Movie: Frozen
+Director: Chris Buck, Jennifer Lee
+Year: 2013
+Rating: PG
+IMDB URL: www.imdb.com/title/tt2294629/
+Cast: 
+Idina Menzel
+Jonathan Groff
+Josh Gad
+Kristen Bell
+
+Movie: Frozen
+Director: Chris Buck
+Year: 2013
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2294629
+Cast: 
+Idina Menzel
+Jonathan Groff
+Josh Gad
+Kristen Bell
+
+Movie: Gattaca
+Director: Andrew Niccol
+Year: 1997
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0119177
+Cast: 
+Ethan Hawke
+Gore Vidal
+Uma Thurman
+Xander Berkeley
+
+Movie: GhostBusters
+Director: Ivan Reitman
+Year: 1984
+Rating: PG
+IMDB URL: www.imdb.com
+Cast: 
+Bill Murray
+Dan Aykroyd
+Sigourney Weaver
+
+Movie: Gladiator
+Director: Ridley Scott
+Year: 2000
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0172495/?ref_=nv_sr_1
+Cast: 
+Connie Nielsen
+Joaquin Phoenix
+Oliver Reed
+Richard Harris
+Russell Crowe
+
+Movie: God's Not Dead
+Director: Harold Cronk
+Year: 2014
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2528814/
+Cast: 
+Alex Aristidis
+Kevin Sorbo
+Korie Robertson
+Lisa Arnold
+Marco Khan
+Shane Harper
+Willie Robertson
+
+Movie: Godzilla
+Director: Roland Emmerich
+Year: 1998
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0120685/?ref_=nv_sr_2
+Cast: 
+Hank Azaria
+Jean Reno
+Maria Pitillo
+Matthew Broderick
+
+Movie: Goldfinger
+Director: Guy Hamilton
+Year: 1964
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0058150/
+Cast: 
+Gert Frobe
+Honor Blackman
+Sean Connery
+Shirley Eaton
+
+Movie: Good Will Hunting
+Director: Gus Van Sant
+Year: 1997
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0119217/
+Cast: 
+Ben Affleck
+Matt Damon
+Robin Williams
+Stellan SkarsgÃ¥rd
+
+Movie: Goodfellas
+Director: Martin Scorsese
+Year: 1990
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0099685/
+Cast: 
+Joe Pesci
+Lorraine Bracco
+Paul Sorvino
+Ray Liotta
+Robert De Niro
+
+Movie: Happy Gilmore
+Director: Dennis Dugan
+Year: 1996
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0116483
+Cast: 
+Adam Sandler
+Christopher McDonald
+Frances Bay
+Julie Bowen
+
+Movie: Harold & Kumar Go to White Castle
+Director: Danny Leiner
+Year: 2004
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0366551/
+Cast: 
+Ethan Embry
+John Cho
+Kal Penn
+Paula Graces
+Robert Tinker
+
+Movie: Harold and Maude
+Director: Hal Ashby
+Year: 1971
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0067185/
+Cast: 
+Bud Cort
+Charles Tyner
+Cyril Cusack
+Ruth Gordon
+Vivian Pickles
+
+Movie: Harry Potter and the Sorccerer's Stone
+Director: Chris Columbus
+Year: 2001
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0241527/?ref_=nv_sr_2 
+Cast: 
+Daneil Radcliffe
+Emma Watson
+Richard Harris
+Rupert Grint
+Tom Felton
+
+Movie: Harry Potter and the Sorcerer's Stone
+Director: Chris Columbus
+Year: 2001
+Rating: PG
+IMDB URL: www.imdb.com/title/tt0241527/
+Cast: 
+Bonnie Wright
+Daniel Radcliffe
+Emma Watson
+Rupert Grint
+
+Movie: How to Train Your Dragon
+Director: Dean DeBlois, Chris Sanders
+Year: 2010
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0892769/
+Cast: 
+America Ferrera
+Christopher Mintz-Plasse
+Craig Ferguson
+Gerard Butler
+Jay Baruchel
+Jonah Hill
+Kristen Wiig
+T.J. Miller
+
+Movie: How to Train Your Dragon
+Director: Dean DeBlois
+Year: 2012
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0892769/?ref_=nv_sr_2
+Cast: 
+America Ferrera
+Christopher Mintz-Plasse
+Craig Ferguson
+Gerard Butler
+Jay Baruchel
+Jonah Hill
+Kristen Wiig
+
+Movie: Howl's Moving Castle
+Director: Hayao Miyazaki
+Year: 2004
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0347149/
+Cast: 
+Christian Bale
+Emily Mortimer
+Jean Simmons
+Lauren Bacall
+
+Movie: I, Robot
+Director: Alex Proyas
+Year: 2004
+Rating: PG13
+IMDB URL: Will Smith 
+Cast: 
+Alan Tudyk
+Bridget Moynahan
+Bruce Greenwood
+
+Movie: Ice Age
+Director: Chris Wedge
+Year: 2002
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0268380/
+Cast: 
+Denis Leary
+Goran Visnjic
+Jack Black
+John Leguizamo
+Ray Romano
+
+Movie: In Bruges
+Director: Martin McDonagh
+Year: 2008
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0780536/?ref_=nv_sr_1
+Cast: 
+Brendan Gleeson
+Colin Farrell
+
+Movie: Inception
+Director: Christopher Nolan
+Year: 2010
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1375666/
+Cast: 
+Ellen Page
+Joseph Gordon-Levitt
+Leonardo DiCaprio
+Tom Hardy
+
+Movie: Inception
+Director: Christopher Nolan
+Year: 2010
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1375666/
+Cast: 
+Ellen Page
+Joseph Gordon-Levitt
+Leonardo DiCaprio
+Tom Hardy
+
+Movie: Insidious
+Director: James Wan
+Year: 2010
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt1591095/
+Cast: 
+Lin Shaye
+Patrick Wilson
+Rose Byrne
+Ty Simpkins
+
+Movie: Iron Man
+Director: Jon Favreau
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0371746/
+Cast: 
+Gwyneth Paltrow
+Jeff Bridges
+Leslie Bibb
+Marvin Jordan
+Robert Downey Jr.
+Russell Richardson
+Samuel L. Jackson
+Terrence Howard
+
+Movie: Island of Lemurs: Madagascar
+Director: David Douglas
+Year: 2014
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt3231010/
+Cast: 
+Hantanirina Rasamimanana
+Morgan Freeman
+Patricia Wright
+
+Movie: It Might Get Loud
+Director: David Guggenheim
+Year: 1998
+Rating: PG
+IMDB URL: imdb.com/title/tt1229360
+Cast: 
+Bono
+Jack White
+Jimmy Page
+The Edge
+
+Movie: It's a Wonderful Life
+Director: Frances Goodrich
+Year: 1946
+Rating: 5
+IMDB URL: http://www.imdb.com/title/tt0038650/?ref_=fn_al_tt_1
+Cast: 
+Donna Reed
+James Stewart
+Lionel Barrymore
+Thomas Mitchell
+
+Movie: Jaws
+Director: Steven Spielberg
+Year: 1975
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0073195/?ref_=fn_al_tt_1
+Cast: 
+Bess Armstrong
+Dennis Quaid
+Richard Dreyfuss
+Robert Shaw
+Roy Scheider
+
+Movie: Jobs
+Director: Joshua Michael Stern
+Year: 2013
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt2357129/?ref_=fn_al_tt_1
+Cast: 
+Ashton Kutcher
+Dermot Mulroney
+J.K. Simmons
+Josh Gad
+Lukas Haas
+Ron Eldard
+
+Movie: Jurassic Park
+Director: Steven Spielberg
+Year: 1993
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0107290/?ref_=nv_sr_2
+Cast: 
+Jeff Goldblum
+Laura Dern
+Richard Attenborough
+Sam Neill
+
+Movie: Jurassic Park
+Director: Steven Spielberg
+Year: 1993
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0107290/
+Cast: 
+Jeff Goldblum
+Laura Dern
+Richard Attenborough
+Sam Neill
+Samuel L. Jackson
+Wayne Knight
+
+Movie: Les Miserables
+Director: Tom Hooper
+Year: 2012
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt1707386/
+Cast: 
+Amanda Seyfried
+Anne Hathaway
+Helena Bonham Carter
+Hugh Jackman
+Russell Crowe
+Sacha Baron Cohen
+
+Movie: M
+Director: Fritz Lang
+Year: 1931
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt0022100/
+Cast: 
+Ellen Widmann
+Inge Landgut
+Otto Wernicke
+Peter Lorre
+
+Movie: MUST COME DOWN
+Director: Kenny Riches
+Year: 2012
+Rating: PG13
+IMDB URL: imdb.com/title/tt1682937
+Cast: 
+Ashly Burch
+David Fetzer
+Eric McGraw
+Liberty Cordova
+
+Movie: Mad Max
+Director: George Miller
+Year: 1979
+Rating: R
+IMDB URL: www.imdb.com/tt0079501/
+Cast: 
+Hugh Keays-Byrne
+Joanne Samuel
+Mel Gibson
+Steve Bisley
+Tim Burns
+
+Movie: Mama
+Director: Andy Muschietti
+Year: 2013
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt2023587
+Cast: 
+Jessica Chastain
+Megan Charpentier
+Nikolaj Coster-Waldau
+
+Movie: Mary Poppins
+Director: Robert Stevenson
+Year: 1964
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0058331/
+Cast: 
+David Tomlinson
+Dick Van Dyke
+Glynis Johns
+Julie Andrews
+
+Movie: Mary and Max
+Director: Adam Ellot
+Year: 2009
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt0978762/?ref_=nv_sr_1
+Cast: 
+Barry Humphries
+Bethany Whitmore
+Eric Bana
+Philip Seymour Hoffman
+Toni Colletti
+
+Movie: Mean Girls
+Director: Mark Waters
+Year: 2004
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0377092/
+Cast: 
+Amanda Seyfried
+Daniel Franzese
+Lacey Chabert
+Lindsay Lohan
+Lizzy Caplan
+Rachel McAdams
+
+Movie: Memento
+Director: Christopher Nolan
+Year: 2000
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0209144/?ref_=nv_sr_1
+Cast: 
+Carrie_Anne Moss
+Guy Pearce
+Jo Pantoliano
+Mark Boone Junior
+
+Movie: Men in Black
+Director: Barry Sonnenfeld
+Year: 1997
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0119654/?ref_=fn_al_tt_1
+Cast: 
+Linda Fiorentino
+Rip Torn
+Tommy Lee Jones
+Vincent D'Onofrio
+Will Smith
+
+Movie: Men in Black III
+Director: Barry Sonnenfeld
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1409024
+Cast: 
+Emma Thompson
+Josh Brolin
+Michael Stuhlbarg
+Mike Colter
+Tommy Lee Jones
+Will Smith
+
+Movie: Monsters University
+Director: Dan Scanlon
+Year: 2013
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt1453405/?ref_=nv_sr_1
+Cast: 
+Billy Crystal
+Helen Mirren
+John Goodman
+Steve Buscemi
+
+Movie: Monsters, Inc.
+Director: Pete Docter
+Year: 2001
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0198781/?ref_=nv_sr_3
+Cast: 
+Billy Crystal
+Jennifer Tilly
+John Goodman
+Mary Gibbs
+Steve Buscemi
+
+Movie: Monty Python and the Holy Grail
+Director: Terry Gilliam
+Year: 1975
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0071853/?ref_=nv_sr_1
+Cast: 
+Eric Idle
+Graham Chapman
+John Cleese
+Michael Palin
+Terry Gilliam
+Terry Jones
+
+Movie: Movie Forrest Gump
+Director: Director Robert Zemeckis
+Year: 1994
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0109830/?ref_=chttp_tt_14
+Cast: 
+Actor Gary Sinise
+Actor Mykelti Williamson
+Actor Robin Wright
+Actor Tom Hanks
+
+Movie: Movie Gone With the Wind
+Director: Director Victor Fleming
+Year: 1939
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0031381/?ref_=nv_sr_4
+Cast: 
+Actor Barbara O'Neil
+Actor Evelyn Keyes
+Actor Thomas Mitchell
+Actor Vivien Leigh
+
+Movie: Movie I Am Legend
+Director: Director Francis Lawrence
+Year: 2007
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0480249/?ref_=fn_al_tt_1
+Cast: 
+Actor Alice Braga
+Actor Charlie Tahan
+Actor Salli Richardson-Whitfield
+Actor Will Smith
+
+Movie: Movie Spirited Away
+Director: Movie Hayao Miyazaki
+Year: 2001
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0245429/?ref_=chttp_tt_36
+Cast: 
+Actor Daveigh Chase
+Actor David Ogden Stiers
+Actor Susan Egan
+Actor Suzanne Pleshette
+
+Movie: Movie The Dark Knight
+Director: Director Christopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0468569/?ref_=chttp_tt_4
+Cast: 
+Actor Aaron Eckhart
+Actor Christian Bale
+Actor Heath Ledger
+Actor Michael Caine
+
+Movie: Mr. Nobody
+Director: Jaco Van Dormael
+Year: 2009
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0485947/?ref_=nv_sr_1
+Cast: 
+Diane Kruger
+Jared Leto
+Sarah Polley
+
+Movie: Mr.Peabody & Sherman
+Director: Rob Minkoff
+Year: 2014
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0864835/
+Cast: 
+Guillaume Aretos
+Lauri Fraser
+Max Charles
+Patrice A. Musick
+Ty Burrell
+
+Movie: Mulan
+Director: Tony Bancroft, Barry Cook
+Year: 1998
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0120762/
+Cast: 
+BD Wong
+Donny Osmond
+Eddie Murphy
+Freda Foh Shen
+Harvey Fierstein
+James Hong
+June Foray
+Lea Salonga
+Marni Nixon
+Miguel Ferrer
+Miriam Margolyes
+Pat Morita
+Soon-Tek Oh
+
+Movie: Mummies: Secrets of the Pharaohs
+Director: Keith Melton
+Year: 2007
+Rating: NR
+IMDB URL: http://www.imdb.com/showtimes/title/tt0922522
+Cast: 
+Crispin Redman
+Elana Drago
+Nasser Memarzia
+William Hope
+
+Movie: Muppets Most Wanted
+Director: James Bobin
+Year: 2014
+Rating: PG
+IMDB URL: http://www.imdb.com/showtimes/title/tt2281587
+Cast: 
+Ricky Gervais
+Steve Whitmire
+Tina Fey
+Ty Burrell
+
+Movie: My Neighbor Totoro
+Director: Hayao Miyazaki
+Year: 1988
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0096283/
+Cast: 
+Dakota Fanning
+Elle Fanning
+Lea Salonga
+Tim Daly
+
+Movie: My Neighbor Totoro
+Director: Hayao Miyazaki
+Year: 1988
+Rating: 0
+IMDB URL: http://www.imdb.com/title/tt0096283/?ref_=fn_al_tt_1
+Cast: 
+Cheryl Chase
+Pat Carroll
+Paul Butcher
+Toshiyuki Amagasa
+
+Movie: Naked Gun 33 1/3: The Final Insult
+Director: Peter Segal
+Year: 1994
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0110622/?ref_=nv_sr_1
+Cast: 
+Leslie Nielsen
+O.J. Simpson
+Priscilla Presley
+
+Movie: Need For Speed
+Director: Scott Waugh
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt2369135/
+Cast: 
+Aaron Paul
+Dominic Cooper
+Imogen Poots
+Rami Malek
+Ramon Rodriguez
+Scott Mescudi
+
+Movie: Never Back Down
+Director: Jeff Wadlow
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1023111/?ref_=nv_sr_1
+Cast: 
+Amber Heard
+Cam Gigandet
+Evan Peters
+Sean Faris
+
+Movie: Noah
+Director: Darren Aronofsky
+Year: 2014
+Rating: PG13
+IMDB URL: http://www.imdb.com/showtimes/title/tt1959490
+Cast: 
+Anthony Hopkins
+Emma Watson
+Jennifer Connelly
+Russell Crowe
+
+Movie: Nymphomaniac: Vol. II
+Director: Lars von Trier
+Year: 2013
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt2382009/
+Cast: 
+Charlotte Gainsbourg
+Shia LaBeouf
+Stellan Skarsgard
+Willem Dafoe
+
+Movie: Oculus
+Director: Mike Flanagan
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2388715/
+Cast: 
+Brenton Thwaites
+Garrett Ryan
+James Lafferty
+Karen Gillan
+
+Movie: Pacific Rim
+Director: Guillermo del Toro
+Year: 2013
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1663662/
+Cast: 
+Charlie Hunnam
+Diego Klattenhoff
+Idris Elba
+Rinko Kikuchi
+
+Movie: Patriot Games
+Director: Phillip Noyce
+Year: 1992
+Rating: R
+IMDB URL: www.imdb.com/title/tt0105112/?ref_=nv_sr_2
+Cast: 
+Anne Archer
+Harrison Ford
+James Fox
+Patrick Bergin
+Sean Bean
+Thora Birch
+
+Movie: Pirates II: Stagnetti's Revenge
+Director: Joone
+Year: 2008
+Rating: NC17
+IMDB URL: www.imdb.com/title/tt1266097
+Cast: 
+Belladonna
+Evan Stone
+Jesse Jane
+Sasha Grey
+
+Movie: Princess Mononoke
+Director: Hayao Miyazaki
+Year: 1997
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0119698/
+Cast: 
+Billy Bob Thornton
+Billy Crudup
+Claire Danes
+Minnie Driver
+
+Movie: Princess Mononoke
+Director: Hayao Miyazaki
+Year: 2
+Rating: 0
+IMDB URL: http://www.imdb.com/title/tt0119698/?ref_=nm_knf_i2
+Cast: 
+Billy Bob Thornton
+Billy Crudup
+John DiMaggio
+Minnie Driver
+
+Movie: Prisoners
+Director: Dennis Villeneuve
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1392214/?ref_=nv_sr_1
+Cast: 
+Hugh Jackman
+Jake Gyllenhaal
+Maria Bello
+Viola Davis
+
+Movie: Prometheus
+Director: Ridley Scott
+Year: 2012
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1446714
+Cast: 
+Logan Marshall-Green
+Michael Fassbender
+Noomi Rapace
+
+Movie: Pulp Fiction
+Director: Quentin Tarantino
+Year: 1994
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0110912/?ref_=nv_sr_1
+Cast: 
+Bruce Willis
+John Travolta
+Samuel L. Jackson
+Uma Thurman
+
+Movie: Raiders of the Lost Ark
+Director: Steven Spielberg
+Year: 1981
+Rating: PG
+IMDB URL: www.imdb.com/title/tt0082971/?ref_=nv_sr_1
+Cast: 
+Harrison Ford
+John Rhys-Davies
+Karen Allen
+Paul Freeman
+
+Movie: Ratatouille
+Director: Brad Bird
+Year: 2007
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0382932/?ref_=nv_sr_1
+Cast: 
+Brian Dennehy
+Ian Holm
+Jeneane Garofalo
+Lou Romano
+Patton Oswalt
+
+Movie: Rear Window
+Director: Alfred Hitchcock
+Year: 1954
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt0047396/
+Cast: 
+Grace Kelly
+James Stewart
+Thelma Ritter
+Wendell Corey
+
+Movie: Rio 2
+Director: Carlos Saldanha
+Year: 2014
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt2357291/
+Cast: 
+Carlinhos Brown
+Jake T. Austin
+Jemaine Clement
+Jim Conroy
+Kristin Chenoweth
+Rachel Crow
+
+Movie: Romeo + Juliet
+Director: Baz Luhrmann
+Year: 1996
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0117509/
+Cast: 
+Claire Danes
+Harold Parrineau
+John Leguizamo
+Leonardo DiCaprio
+
+Movie: Rush Hour
+Director: Brett Ratner
+Year: 1998
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0120812/?ref_=nv_sr_1
+Cast: 
+Chris Tucker
+Jackie Chan
+Julia Hsu
+Ken Leung
+Tom Wilkinson
+Tzi Ma
+
+Movie: Sabotage
+Director: David Ayer
+Year: 2014
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1742334/
+Cast: 
+Joe Manganiello
+Josh Holloway
+Kevin Vance
+Max Martini
+Sam Worthington
+Terrence Howard
+
+Movie: Saving Private Ryan
+Director: Steven Spielberg
+Year: 1998
+Rating: R
+IMDB URL: www.imdb.com/title/tt0120815/?ref_=nv_sr_2
+Cast: 
+Barry Pepper
+Edward Burns
+Matt Damon
+Tom Hanks
+Tom Sizemore
+
+Movie: Scarface
+Director: Brian De Palma
+Year: 1983
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0086250/?ref_fn_al_tt_1
+Cast: 
+Al Pacino
+Michelle Pfeiffer
+Robert Loggia
+Steven Bauer
+
+Movie: Schindler's List
+Director: Steven Spielberg
+Year: 1993
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0108052/
+Cast: 
+Ben Kingsley
+Caroline Goodall
+Liam Neeson
+Ralph Fiennes
+
+Movie: Secretly, Greatly
+Director: Jang Chul-soo
+Year: 2013
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt2967578/
+Cast: 
+Kim Soo-hyun
+Lee Hyun-woo
+Park Ki-woong
+Son Hyun-joo
+
+Movie: Serenity
+Director: Joss Whedon
+Year: 2005
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0379786/?ref_=nv_sr_1
+Cast: 
+Adam Baldwin
+Alan Tudyk
+David Krumholtz
+Gina Torres
+Jewel Staite
+Morena Baccarin
+Nathan Fillion
+Ron Glass
+Sean Maher
+Summer Glau
+
+Movie: Shame
+Director: Steve McQueen, Abi Morgan
+Year: 2011
+Rating: NC17
+IMDB URL: http://www.imdb.com/title/tt1723811/
+Cast: 
+Alex Manette
+James Badge Dale
+Lucy Walters
+Mari-Ange Ramirez
+Michael Fassbender
+Nicole Beharie
+
+Movie: Sherlock Holmes
+Director: Guy Ritchie
+Year: 2009
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0988045/?ref_=nv_sr_2
+Cast: 
+Eddie Marsan
+Jude Law
+Mark Strong
+Rachel McAdams
+Robert Downey Jr.
+Robert Maillet
+
+Movie: Shrek
+Director: Andrew Adamson
+Year: 2001
+Rating: PG
+IMDB URL: www.imdb.com/title/tt0126029/?ref_=nv_sr_1
+Cast: 
+Cameron Diaz
+Cody Cameron
+Eddie Murphy
+John Lithgow
+Mike Myers
+
+Movie: Shrek 2
+Director: Andrew Adamson
+Year: 2013
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0298148/
+Cast: 
+Antonio Banderas
+Cameron Diaz
+Eddie Murphy
+Mike Myers
+
+Movie: Silver Linings Playbook
+Director: David O. Russell
+Year: 2012
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1045658/?ref_=nv_sr_1
+Cast: 
+Bradley Cooper
+Jacki Weaver
+Jennifer Lawrence
+Robert De Niro
+
+Movie: Sky Captain and the World of Tomorrow
+Director: Kerry Conran
+Year: 2004
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0346156/
+Cast: 
+Giovanni Ribisi
+Gwyneth Paltrow
+Jude Law
+Michael Gambon
+
+Movie: Spiderman
+Director: Sam Rami
+Year: 2002
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0145487/?ref_=fn_al_tt_1
+Cast: 
+James Franco
+Kirsten Dunst
+Tobey Maguire
+Willem Dafoe
+
+Movie: Spiderman
+Director: Sam Raimi
+Year: 2002
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0145487/
+Cast: 
+Kirsten Dunst
+Tobey Maguire
+Willem Dafoe
+
+Movie: Spirited Away
+Director: Hayao Miyazaki
+Year: 2001
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0245429/
+Cast: 
+Daveigh Chase
+Jason Marsden
+Susan Egan
+Suzanne Pleshette
+
+Movie: Spirited Away
+Director: Hayao Miyazaki
+Year: 1
+Rating: 0
+IMDB URL: http://www.imdb.com/title/tt0245429/?ref_=nm_knf_i1
+Cast: 
+Daveigh Chase
+David Ogden Stiers
+Susan Egan
+Suzanne Pleshette
+
+Movie: Spirited Away
+Director: Hayao Miyazaki
+Year: 2001
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0245429/
+Cast: 
+Bunta Sugawara
+Mari Natsuki
+Miyu Irino
+Rumi Hiiragi
+
+Movie: Stand By Me
+Director: Rob Reiner
+Year: 1986
+Rating: R
+IMDB URL: IMDB URL: www.imdb.com/title/tt0092005/
+Cast: 
+Corey Feldman
+Jerry O'Connell
+Kiefer Sutherland
+River Phoenix
+Wil Wheaton
+
+Movie: Star Trek 3: The Search for Spock
+Director: Leanard Nimoy
+Year: 1984
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0088170/?ref_=fn_al_tt_2
+Cast: 
+DeForest Kelley
+George Takei
+James Doohan
+Leonard Nimoy
+Nichelle Nichols
+Walter Koenig
+William Shatner
+
+Movie: Star Wars Episode V: The Empire Strikes Back
+Director: Irvin Kershner
+Year: 1980
+Rating: PG
+IMDB URL: www.imdb.com/title/tt0080684/
+Cast: 
+Billy Dee Williams
+Carrie Fisher
+Harrison Ford
+Mark Hammil
+Peter Mayhew
+
+Movie: Star Wars: Episode III - Revenge of the Sith
+Director: George Lucas
+Year: 2005
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0121766/?ref_=nv_sr_5  
+Cast: 
+Ewan McGregor
+Hayden Christensen
+Ian McDiarmid
+Natalie Portman
+Samuel L. Jackson
+
+Movie: Star Wars: Episode IV - A New Hope
+Director: George Lucas
+Year: 1977
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0076759/?ref_=nv_sr_2
+Cast: 
+Carrie Fisher
+Harrison Ford
+Mark Hamill
+Peter Cushing
+
+Movie: Star Wars: Episode V - The Empire Strikes Back
+Director: Irvin Kershner
+Year: 1980
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0080684/
+Cast: 
+Anthony Daniels
+Billy Dee Williams
+Carrie Fisher
+Harrison Ford
+Mark Hamill
+
+Movie: Stranger Than Fiction
+Director: Marc Forster
+Year: 2006
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0420223/?ref_=nv_sr_2
+Cast: 
+Dustin Hoffman
+Emma Thompson
+Guy Massey
+Peter Grosz
+Will Ferrell
+William Dick
+
+Movie: Summer Wars
+Director: Mamoru Hosoda
+Year: 2009
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt1474276/
+Cast: 
+Brina Palencia
+Cherami Leigh
+J. Michael Tatum
+John Swasey
+Maxey Whitehead
+Michael Sinterniklaas
+Monical Rial
+Pam Dougherty
+Todd Haberkorn
+
+Movie: Superbad
+Director: Greg Mottola
+Year: 2007
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0829482/
+Cast: 
+Bill Hader
+Christopher Mintz-Plasse
+Jonah Hill
+Michael Cera
+Seth Rogen
+
+Movie: Taken
+Director: Pierre Morel
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0936501/?ref_=nv_sr_2
+Cast: 
+Jon Gries
+Liam Neeson
+Maggie Grace
+
+Movie: Ted
+Director: Seth MacFarlane
+Year: 2012
+Rating: R
+IMDB URL: www.imdb.com
+Cast: 
+Mark Wahlberg
+Mila Kunis
+Seth MacFarlane
+
+Movie: The Avengers
+Director: Joss Whendon
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0848228/?ref_=nv_sr_2
+Cast: 
+Chris Evans
+Chris Hemsworth
+Jeremy Renner
+Mark Ruffalo
+Robert Downey Jr.
+Samuel L. Jackson
+Scarlett Johannsson
+Tom Hiddleston
+
+Movie: The Avengers
+Director: Joss Whedon
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0848228/?ref_=nv_sr_2
+Cast: 
+Chris Evans
+Chris Hemsworth
+Jeremy Renner
+Mark Ruffalo
+Robert Downey Jr.
+Samuel L. Jackson
+Scarlett Johansson
+Tom Hiddleston
+
+Movie: The Breakfast Club
+Director: John Hughes
+Year: 1985
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0088847/?ref_=nv_sr_1
+Cast: 
+Anthony Michael Hall
+Emilio Estevez
+Judd Nelson
+Molly Ringwald
+Paul Gleason
+
+Movie: The Cabin in the Woods
+Director: Drew Goddard
+Year: 2012
+Rating: R
+IMDB URL: www.imdb.com/title/tt1259521/
+Cast: 
+Amy Acker
+Anna Hutchison
+Chris Hemsworth
+Kristen Connolly
+
+Movie: The Curious Case of Benjamin Button
+Director: David Fincher
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0421715/
+Cast: 
+Brad Pitt
+Cate Blanchett
+Ed Metzger
+Elias Koteas
+Faune A. Chambers
+Julia Ormond
+
+Movie: The Curse of the Were-Rabbit
+Director: Steve Box
+Year: 2005
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0312004/
+Cast: 
+Helena Bonham Carter
+Mark Catiss
+Peter Sallis
+Ralph Fiennes
+
+Movie: The Dark Knight
+Director: Christopher Nolan
+Year: 2008
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0468569/
+Cast: 
+Aaron Eckhart
+Christian Bale
+Heath Ledger
+Maggie Gyllenhaal
+Michael Caine
+
+Movie: The Dark Knight
+Director: Christopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0468569/
+Cast: 
+Aaron Eckhart
+Christian Bale
+Heath Ledger
+Maggie Gyllenhaal
+Michael Caine
+Morgan Freeman
+
+Movie: The Dark Knight
+Director: Director:Christopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0468569/
+Cast: 
+Aaron Eckhart
+Christian Bale
+Heath Ledger
+Michael Caine
+
+Movie: The Dark Knight
+Director: Christopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0468569/
+Cast: 
+Christian Bale
+Gary Oldman
+Heath Ledger
+Morgan Freeman
+
+Movie: The Dark Knight
+Director: Chirstopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0468569/?ref_=nv_sr_1  
+Cast: 
+Aaron Eckhart
+Christain Bale
+Heath Ledger
+Maggie Gyllenhaal
+Morgan Freeman
+
+Movie: The Dark Knight
+Director: Christopher Nolan
+Year: 2008
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt0468569/?ref_=nv_sr_1
+Cast: 
+Aaron Eckhart
+Christian Bale
+Gary Oldman
+Heath Ledger
+Morgan Freeman
+
+Movie: The Dark Knight Rises
+Director: Christopher Nolan
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1345836/
+Cast: 
+Anne Hathaway
+Christian Bale
+Gary Oldman
+Joseph Gordon-Levitt
+Marion Cotillard
+Morgan Freeman
+Tom Hardy
+
+Movie: The Departed
+Director: Martin Scorsese
+Year: 2006
+Rating: R
+IMDB URL: www.imdb.com/title/tt0407887/?ref_ =nv_sr_1
+Cast: 
+Jack Nicholson
+Leonardo Decaprio
+Mark Wahlberg
+Matt Damon
+
+Movie: The Dreamers
+Director: Bernardo Bertolucci
+Year: 2003
+Rating: NC17
+IMDB URL: www.imdb.com
+Cast: 
+Eva Green
+Louis Garrel
+Michael Pitt
+
+Movie: The Godfather
+Director: Francis Ford Coppola
+Year: 1972
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0068646/
+Cast: 
+Al Pacino
+James Caan
+Marlon Brando
+Richard S. Castellano
+
+Movie: The Good Earth
+Director: Sidney Franklin
+Year: 1937
+Rating: NR
+IMDB URL: imdb.com/title/tt0028944/
+Cast: 
+Luise Rainer
+Paul Muni
+Tilly Losch
+Walter Connolly
+
+Movie: The Grand Budapest Hotel
+Director: Wes Anderson
+Year: 2014
+Rating: R
+IMDB URL: www.imdb.com/title/tt2278388
+Cast: 
+Adrien Brody
+Bill Murray
+F. Murray Abraham
+Jude Law
+Ralph Fiennes
+
+Movie: The Great Gatsby
+Director: Baz Luhrmann
+Year: 2013
+Rating: PG13
+IMDB URL: www.imdb.com/title/tt1343092/?ref_=nv_sr_1
+Cast: 
+Amitabh Bachchan
+Frank Aldridge
+Leonardo DiCaprio
+Lisa Adam
+Mal Day
+
+Movie: The Great Gatsby
+Director: Baz Luhrmann
+Year: 2013
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt1343092/
+Cast: 
+Carey Mulligan
+Isla Fisher
+Jason Clarke
+Joel Edgerton
+Leonardo DiCaprio
+
+Movie: The Hangover
+Director: Todd Phillips
+Year: 2009
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1119646/
+Cast: 
+Bradley Cooper
+Ed Helms
+Justin Bartha
+Zach Galifianakis
+
+Movie: The Happening
+Director: M. Night Shyamalan
+Year: 2008
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0949731/?ref_=nv_sr_1
+Cast: 
+Mark Wahlberg
+Zooey Deschanel
+
+Movie: The Hobbit
+Director: Peter Jackson
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0903624/
+Cast: 
+Andy Serkis
+Benedict Cumberbatch
+Ian McKellan
+Martin Freeman
+Richard Armitage
+
+Movie: The Hobbit: An Unexpected Journey
+Director: Peter Jackson
+Year: 2012
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0903624/?ref_=nv_sr_2
+Cast: 
+Graham McTavish
+Ian McKellen
+Ken Stott
+Martin Freeman
+Richard Armitage
+
+Movie: The Hobbit: The Desolation of Smaug
+Director: Peter Jackson
+Year: 2013
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1170358/
+Cast: 
+Ian McKellen
+Martin Freeman
+Richard Armitage
+
+Movie: The Human Centipede
+Director: Tom Six
+Year: 2009
+Rating: R
+IMDB URL: www.imdb.com/title/tt1467304/?ref=nv_sr_2
+Cast: 
+Ashley C. Williams
+Ashlynn Yennie
+Dieter Laser
+
+Movie: The Human Centipede II
+Director: Tom Six
+Year: 2011
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt1530509/
+Cast: 
+Ashlynn Yennie
+Kandace Caine
+Laurence R. Harvey
+Maddi Black
+
+Movie: The Hunger Games
+Director: Gary Ross
+Year: 2012
+Rating: PG13
+IMDB URL: www.imdb.com
+Cast: 
+Jennifer Lawrence
+Josh Hutcherson
+Liam Henswworth
+
+Movie: The Hunger Games: Catching Fire
+Director: Francis Lawrence
+Year: 2013
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1951264
+Cast: 
+Donald Sutherland
+Jennifer Lawrence
+Josh Hutcherson
+Liam Hemsworth
+
+Movie: The Incredible Hulk
+Director: Louis Leterrier
+Year: 2008
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0800080/
+Cast: 
+Edward Norton
+Liv Tyler
+Tim Blake Nelson
+Tim Roth
+Ty Burrell
+William Hurt
+
+Movie: The Incredibles
+Director: Brad Bird
+Year: 2004
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0317705/
+Cast: 
+Craig T. Nelson
+Holly Hunter
+Samuel L. Jackson
+
+Movie: The Intouchables
+Director: Olivier Nakache
+Year: 2011
+Rating: R
+IMDB URL: www.imdb.com/title/tt1675434
+Cast: 
+Anne Le Ny
+Francois Cluzet
+Omar Sy
+
+Movie: The Last Airbender
+Director: M. Night Shyamalan
+Year: 2010
+Rating: PG
+IMDB URL: www.imdb.com/title/tt0938283/?ref_=nm_flmg_prd_6
+Cast: 
+Jackson Rathbone
+Nicola Peltz
+Noah Ringer
+
+Movie: The Last Tycoon
+Director: Jing Wong
+Year: 2012
+Rating: NR
+IMDB URL: www.imdb.com/title/tt2458314
+Cast: 
+Xiaoming Huang
+Yun-Fat Chow
+
+Movie: The League of Extraordinary Gentlemen
+Director: Stephen Norrington
+Year: 2003
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0311429/
+Cast: 
+Naseeruddin Shah
+Peta Wilson
+Sean Connery
+Tony Curran
+
+Movie: The Lego Movie
+Director: Phil Lord
+Year: 2014
+Rating: PG
+IMDB URL: www.imdb.com/title/tt1490017/
+Cast: 
+Alison Brie
+Anthony Daniels
+Craig Berry
+David Burrows
+Elizabeth Banks
+Will Arnett
+
+Movie: The Lego Movie
+Director: Phil Lord & Christopher Miller
+Year: 2014
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt1490017/
+Cast: 
+Chris Pratt
+Elizabeth Banks
+Morgan Freeman
+Will Arnett
+Will Ferrell
+
+Movie: The Lion King
+Director: Roger Allens
+Year: 1994
+Rating: Rating: G
+IMDB URL: http://www.imdb.com/title/tt0110357/?ref_=nv_sr_1
+Cast: 
+James Earl Jones
+Jeremy Irons
+Jonathan Taylor Thomas
+Matthew Broderick
+Moira Kelly
+Niketa Calame
+
+Movie: The Lion King
+Director: Roger Allers
+Year: 1994
+Rating: G
+IMDB URL: www.imdb.com
+Cast: 
+James Earl Jones
+Jeremy Irons
+Matthew Broderick
+
+Movie: The Lord of the Rings: The Fellowship of the Ring
+Director: Peter Jackson
+Year: 2001
+Rating: R
+IMDB URL: www.imbd.com/title/tt0120737/?ref_ =nv_sr_1
+Cast: 
+Elijah Wood
+Ian Mckellen
+Sean Astin
+Viggo Mortensen
+
+Movie: The Lord of the Rings: The Fellowship of the Ring
+Director: Peter Jackson
+Year: 2001
+Rating: PG13
+IMDB URL:  http://www.imdb.com/title/tt0120737/?ref_=nv_sr_1
+Cast: 
+Billy Boyd
+Christopher Lee
+Elijah Wood
+Ian McKellen
+John Rhys_Davies
+Orlando Bloom
+Sean Astin
+Sean Bean
+Viggo Mortensen
+
+Movie: The Lord of the Rings: The Fellowship of the Ring
+Director: Peter Jackson
+Year: 2001
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0120737/
+Cast: 
+Billy Boyd
+Elijah Wood
+Sean Astin
+Sean Bean
+
+Movie: The Lord of the Rings: The Two Towers
+Director: Peter Jackson
+Year: 2002
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0167261/
+Cast: 
+Bruce Hopkins
+Cate Blanchett
+Elijah Wood
+Ian McKellen
+Viggo Mortensen
+
+Movie: The Lord of the Rings: the Fellowship of the Ring
+Director: Peter Jackson
+Year: 2001
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0120737/?ref_=nv_sr_1
+Cast: 
+Billy Boyd
+Christopher Lee
+Elijah Wood
+Ian McKellen
+Orlando Bloom
+Sean Astin
+
+Movie: The Matrix
+Director: The Wachowski Brothers
+Year: 1999
+Rating: R
+IMDB URL: www.imdb.com/title/tt0133093/?ref_=nv_sr_1
+Cast: 
+Carrie-Anne Moss
+Hugo Weaving
+Keanu Reeves
+Laurence Fishburne
+
+Movie: The Matrix
+Director: Andy Wachowski
+Year: 1999
+Rating: R
+IMDB URL: www.imdb.com/title/tt0133093
+Cast: 
+Carrie-Anne Moss
+Hugo Weaving
+Keanu Reaves
+Laurence Fishburne
+
+Movie: The Matrix
+Director: The Wachowski Brothers
+Year: 1999
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0133093/
+Cast: 
+Carrie-Anne Moss
+Hugo Weaving
+Keanu Reeves
+Laurence Fishbourne
+
+Movie: The Notebook
+Director: Nick Cassavetes
+Year: 2004
+Rating: PG-13
+IMDB URL: http://www.imdb.com/title/tt0332280/
+Cast: 
+Gena Rowlands
+James Garner
+James Marsden
+Rachel McAdams
+Ryan Gosling
+
+Movie: The Patriot
+Director: Roland Emmerich
+Year: 2000
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0187393/
+Cast: 
+Chris Cooper
+Heath Ledger
+Jason Isaacs
+Joely Richardson
+Mel Gibson
+
+Movie: The Pirate Fairy
+Director: Peggy Holmes
+Year: 2014
+Rating: G
+IMDB URL: www.imdb.com/title/tt2483260/?ref_=nv_sr_1
+Cast: 
+Christina Hendricks
+Mae Whitman
+Tom Hiddleston
+
+Movie: The Princess Bride
+Director: Rob Reiner
+Year: 1987
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt0093779/?ref_=nv_sr_1
+Cast: 
+Andre the Giant
+Cary Elwes
+Chris Sarandon
+Christopher Guest
+Fred Savage
+Mandy Patinkin
+Peter Falk
+Robin Wright
+Wallace Shawn
+
+Movie: The Railway Man
+Director: Jonathan Teplitzky
+Year: 2014
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2058107/
+Cast: 
+Colin Firth
+Jeremy Irvine
+Michael MacKenzie
+Nicole Kidman
+Stellan Skarsgard
+
+Movie: The Shawshank Redemption
+Director: Frank Darabont
+Year: 1971
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0111161/
+Cast: 
+Bob Gunton
+Morgan Freeman
+Tim Robbins
+William Sadler
+
+Movie: The Shawshank Redemption
+Director: Frank Darabont
+Year: 1994
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0111161/
+Cast: 
+Bob Gunton
+Morgan Freeman
+Tim Robbins
+William Sadler
+
+Movie: The Shining
+Director: Stanley Kubrick
+Year: 1980
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0081505/?ref_=nv_sr_1
+Cast: 
+Danny Lloyd
+Jack Nicholson
+Scatman Crothers
+Shelley Duvall
+
+Movie: The Sound Of Music
+Director: Robert Wise
+Year: 1965
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0059742/
+Cast: 
+Christopher Plummer
+Julie Andrews
+
+Movie: The Terminator
+Director: James Cameron
+Year: 1984
+Rating: R
+IMDB URL: IMDB URL: www.imdb.com/title/tt0088247/
+Cast: 
+Arnold Schwarzenegger
+Linda Hamilton
+Michael Biehn
+Paul Winfield
+
+Movie: The Town
+Director: Ben Affleck
+Year: 2010
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt0840361/?ref_=tt_rec_tt
+Cast: 
+Ben Affleck
+Jeremy Renner
+Jon Hamm
+Rebecca Hall
+
+Movie: The Usual Suspects
+Director: Bryan Singer
+Year: 1995
+Rating: R
+IMDB URL: www.imdb.com/title/tt0114814
+Cast: 
+Gabriel Byrne
+Stephen Baldwin
+
+Movie: The Watch
+Director: Akiva Schaffer
+Year: 2012
+Rating: R
+IMDB URL: www.imdb.com/title/tt1298649/
+Cast: 
+Ben Stiller
+Jonah Hill
+Richard Ayoade
+Vince Vaughn
+
+Movie: The Wolf of Wall Street
+Director: Martin Scorsese
+Year: 2013
+Rating: R
+IMDB URL: www.imdb.com/title/tt0993846
+Cast: 
+Jonah Hill
+Leonardo DiCaprio
+Margot Robbie
+Matthew McConaughey
+
+Movie: Thor
+Director: Kenneth Branagh
+Year: 2011
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0800369/
+Cast: 
+Anthony Hopkins
+Chris Hemsworth
+Natalie Portman
+
+Movie: Thor:The Dark World
+Director: Alan Taylor
+Year: 2013
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1981115/
+Cast: 
+Anthony Hopkins
+Chris Hemsworth
+Christopher Eccleston
+Jaimie Alexander
+Natalie Portman
+Tom Hiddleston
+
+Movie: Timeline
+Director: Richard Donner
+Year: 2004
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0300556/
+Cast: 
+Anna Friel
+Billy Connolly
+Gerard Butler
+Lambert Wilson
+Michael Sheen
+Paul Walker
+
+Movie: Titanic
+Director: James Cameron
+Year: 1997
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0120338/?ref_=fn_al_tt_1
+Cast: 
+Billy Zane
+Frances Fisher
+Kate Winslet
+Kathy Bates
+Leonardo DiCaprio
+
+Movie: Titanic
+Director: James Cameron
+Year: 1997
+Rating: PG-13
+IMDB URL: www.imdb.com/title/tt0120338
+Cast: 
+Billy Zane
+Kate Winslet
+Kathy Bates
+Leonardo DiCaprio
+
+Movie: Titanic
+Director: James Cameron
+Year: 1997
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0120338/
+Cast: 
+Billy Zane
+Kate Winslet
+Leonardo DiCaprio
+
+Movie: Toy Story
+Director: John Lasseter
+Year: 1995
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0114709/?ref_=fn_al_tt_1
+Cast: 
+Don Rickles
+Jim Varney
+Tim Allen
+Tom Hanks
+
+Movie: Toy Story 3
+Director: Lee Unkrich
+Year: 2010
+Rating: G
+IMDB URL: http://www.imdb.com/title/tt0435761/?ref_=nv_sr_1
+Cast: 
+Joan Cusack
+Ned Beatty
+Tim Allen
+Tom Hanks
+
+Movie: Transformers
+Director: Michael Bay
+Year: 2007
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt0418279/
+Cast: 
+Josh Duhamel
+Megan Fox
+Shia LaBeouf
+Tyrese Gibson
+
+Movie: Transformers: Revenge of the Fallen
+Director: Michael Bay
+Year: 2009
+Rating: PG13
+IMDB URL: http://www.imdb.com/title/tt1055369/
+Cast: 
+John Turturro
+Josh Duhamel
+Megan Fox
+Shia LaBeouf
+Tyrese Gibson
+
+Movie: Under the Skin
+Director: Jonathan Glazer
+Year: 2013
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1441395/
+Cast: 
+Dougie McConnell
+Jeremy McWilliams
+Lynsey Taylor Mackay
+Paul Brannigan
+Scarlett Johansson
+
+Movie: Upstream Color
+Director: Shane Carruth
+Year: 2013
+Rating: NR
+IMDB URL: http://www.imdb.com/title/tt2084989/?ref_=nv_sr_1
+Cast: 
+Amy Seimetz
+Frank Mosley
+
+Movie: VHS
+Director: Matt Bettinelli-Olpin
+Year: 2012
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt2105044/
+Cast: 
+Adam Wingard
+Joe Swanberg
+Lane Hughes
+Matt Bettinelli-Olpin
+Tyler Gillet
+
+Movie: Watchmen
+Director: Zach Snyder
+Year: 2009
+Rating: R
+IMDB URL: www.imdb.com/title/tt0409459/?ref_ =nv_sr_1
+Cast: 
+Billy Crudup
+Jackie Earle Haley
+Malin Akerman
+Matthew Goode
+
+Movie: Wolf Children
+Director: Mamoru Hosoda
+Year: 2012
+Rating: PG
+IMDB URL: http://www.imdb.com/title/tt2140203/
+Cast: 
+Amon Kabe
+Aoi Miyazaki
+Haru Kuroki
+Megumi Hayashibara
+Momoka Ohno
+Takao Ohsawa
+Takuma Hiraoka
+Yukito Nishii
+
+Movie: [Rec]
+Director: Jaume Balagueró
+Year: 2007
+Rating: R
+IMDB URL: http://www.imdb.com/title/tt1038988/?ref_=nv_sr_6
+Cast: 
+Ferran Terraza
+Jorge-Yamam Serrano
+Manuela Velasco
+Pablo Rosso
+
