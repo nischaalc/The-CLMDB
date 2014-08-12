@@ -6,7 +6,3 @@ Right now all this program does is scan through a text file of movie details (ti
 this information back to you on the command line. From here you can choose to remove duplicates and sort the list of movies
 before writing the list to a new file. 
 
-Planned features:
-
-*   Use linked lists for more efficient traversal of records. Makes searching and deleting more efficient as well.
-*   Develop a GUI and port this from the command line to an actual program.
